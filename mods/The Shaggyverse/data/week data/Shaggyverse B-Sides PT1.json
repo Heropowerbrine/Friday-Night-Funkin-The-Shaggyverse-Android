@@ -1,0 +1,22 @@
+{
+    "groupName": "Shaggyverse B-Sides PT1",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week0",
+            "songs": [
+                "BFDR"
+            ],
+            "characters": [
+                "shaggymatt",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "woah funny b-sides week",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "Animation_Name": "phantom_idle",
+    "Animation_Looped": true,
+    "FPS": 24,
+    "Size": 0.45,
+    "Offsets": [215, 215],
+    "File_Name": "shaggy_phantom",
+    "Flipped": false
+}

@@ -1,0 +1,42 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [87, 0, 127],
+    "characters": [
+        {
+            "name": "green-shaggy",
+            "positionOffset": [-600,0]
+        },
+        {
+            "name": "red-shaggy",
+            "positionOffset": [-400,0]
+        },
+        {
+            "name": "yellow-shaggy",
+            "positionOffset": [-200,0]
+        }, 
+        {
+            "name": "blue-shaggy",
+            "positionOffset": [0,0]
+        }, 
+        {
+            "name": "purple-shaggy",
+            "positionOffset": [200,0]
+        }, 
+        {
+            "name": "orangeshaggy",
+            "positionOffset": [400,0]
+        }, 
+        {
+            "name": "omatt",
+            "positionOffset": [-500,30]
+        }, 
+        {
+            "name": "matt",
+            "positionOffset": [-100,30]
+        }, 
+        {
+            "name": "pmatt",
+            "positionOffset": [300,30]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+	"character_Positions": [
+		[
+			98,
+			558
+		],
+		[
+			705,
+			604
+		],
+		[
+			3706,
+			1556
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-637,
+				-194
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "bg"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				345,
+				-286
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "gate"
+		}
+	],
+	"camera_Zoom": 0.9
+}

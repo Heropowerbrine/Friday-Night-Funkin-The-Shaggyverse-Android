@@ -1,0 +1,82 @@
+Where Are You:green-shaggy:1:Canon:#1fa33e
+Eruption:green-shaggy:1:Canon:#1fa33e
+Kaio Ken:green-shaggy:1:Canon:#1fa33e
+Whats New:green-shaggy:2:Canon:#1fa33e
+Blast:green-shaggy:2:4k Mania,Canon:#1fa33e
+Super Saiyan:green-shaggy:2:4k Mania,Canon:#1fa33e
+Zen:green-shaggy:8:4k Mania,Less-Power,Canon,Extreme:#1fa33e
+Demagogue:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+SrPerez Ultra Instinct:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Surge:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Enraged:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Collapse:god-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+GOD EATER:god-shaggy:3:Canon:#4B3372
+Iscyhros:god-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Power Link:red-shaggy:4:Canon:#D11A1A
+Revenge:bmatt:4:Canon:#FF8C00
+Coercion:shaggy-matt:8:4k Mania,Less-Power,Canon:#9e3fab
+Destructive Duo:shaggy-matt:8:4k Mania,Less-Power,Canon:#9e3fab
+Burning Regret:shaggy-matt:8:4k Mania,Less-Power,Canon:#9e3fab
+Final Destination:shaggy-matt:4:Normal,Less-Power,Canon,God:#9e3fab
+Cosmic Cessation:shaggy-matt:8:4k Mania,Less-Power,Canon:#9e3fab
+Cheater Suffering:shaggy-matt:8:4k Mania,Less-Power,Canon:#9e3fab
+Cooldown:red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Soothing Power:red-shaggy:5:Canon:#D11A1A
+Heatwave:red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Astromical Funk:red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Thunderstorm:red-shaggy:5:Canon:#D11A1A
+Dissasembler:red-shaggy:5:Canon:#D11A1A
+Red Man:red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Kami Fura:red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Paradoxical:red-shaggy:8:4k Mania,Less-Power,Canon,Extreme:#d13030
+Soaring Demiurges:red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Sandstorm:god-red-shaggy:8:4k Mania,Less-Power,Canon:#6e4685
+Ultra Instinct:god-red-shaggy:8:4k Mania,Less-Power,Canon:#6e4685
+Demigod:god-red-shaggy:8:4k Mania,Less-Power,Canon:#d13030
+Disturbance:bshag:8:4k Mania,Less-Power,Canon,Extreme:#000000
+Colossal Might:bshag:8:4k Mania,Less-Power,Canon:#000000
+Ultra-Instinct-New:bshag:8:4k Mania,Less-Power,Canon:#000000
+Snowstorm:wintershaggy:8:4k Mania,Less-Power,Canon,Extreme:#71a7fd
+Adagio:gray-shaggy:8:4k Mania,Less-Power,Canon,Extreme:#403d3d
+Uproar:yellow-shaggy:8:4k Mania,Less-Power,Canon,Extreme,REMAKE:#ffeb0f
+Solstice:yellow-shaggy:8:4k Mania,Less-Power,Canon:#ffeb0f
+Sunlight:yellow-shaggy:8:4k Mania,Less-Power,Canon:#ffeb0f
+Energy Saver:blue-shaggy:8:4k Mania,Less-Power,Canon:#1f79a3
+Intergalactic Sin:god-blue-shaggy:8:4k Mania,Less-Power,Canon:#1f79a3
+Chance:blueshaggyredmatt:8:4k Mania,Less-Power,Canon:#1f79a3
+Absolute Chaos:syb:8:4k Mania,Less-Power,Canon:#E1E100
+Godlike:ohgodthegods:8:4k Mania,Less-Power,Canon:#40B5AD
+Quadripresent Deitys:shaggies:8:4k Mania,Less-Power,Canon:#226630
+Galaxy Demolisher:godshaggies:8:4k Mania,Less-Power,Canon:#226630
+Immortals Division:shaggies:8:4k Mania,Less-Power,Canon:#226630
+Multicolor Demise:godshaggies:8:4k Mania,Less-Power,Canon,REMAKE,REMAKEGOD:#226630
+Deadly Temptation:red-shaggy:8:4k Mania,Less-Power,Canon:#9e3fab
+Astral Calamity:shaggy_green:6:Canon,Extreme:#0F0F0F
+Aura:shaggy_green:8:4k Mania,Less-Power,Canon,Extreme:#1fa33e
+Neutron:shaggy_phantom:8:4k Mania,Less-Power,Canon:#1fa33e
+Universe Conquerer:shaggy_phantom:8:4k Mania,Less-Power,Canon:#1fa33e
+Talladega:shaggy_phantom:6:Canon:#144800
+Twofold Tension:gr:8:4k Mania,Less-Power,Canon:#33724b
+Godified Destruction:ggr:8:4k Mania,Less-Power,Canon:#000000
+Despondency:orangeshaggy:8:4k Mania,Less-Power,Canon:#cb601d
+Chill:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Tray Doe:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Furia:green-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Game Over:omatt:8:Easy,Normal,Hard:#FFA891
+Addition:shaggy-matt:8:4k Mania,Less-Power,Canon:#9e3fab
+Capability Binding:bshag:8:4k Mania,Less-Power,Canon:#000000
+Playing with God:ggsom:8:4k Mania,Less-Power,Canon:#1fa33e
+Multi-Zoink:shaggy_blueperez:8:4k Mania,Less-Power,Canon:#2856B1
+Surprise!:shaggy_red_phantom:8:4k Mania,Less-Power,Canon:#d13030
+Lunar Vigor:super-blue_s:8:4k Mania,Less-Power,Canon:#5A91E2
+Multiversal:gr:8:4k Mania,Less-Power,Canon:#33724b
+EDC:mashupchars:8:4k Mania,Less-Power,Canon:#4DACC5
+Iscyhros New:god-shaggy:8:4k Mania,Less-Power,Canon:#1fa33e
+Imitheos:shaggies:8:4k Mania,Less-Power,Canon:#226630
+Spacial Collapse:godcyanshaggy:8:4k Mania,Less-Power,Canon,Extreme:#00FFFF
+Agnate:cyan_shaggy:8:4k Mania,Less-Power,Canon:#00FFFF
+Infiltrate:brownshaggy:8:4k Mania,Less-Power,Canon:#6D2100
+First Frights:redshaggyandscooby:8:Canon:#d13030
+BFDR:bsshaggymatt:8:4k Mania,Less-Power,Canon:#00A1C3
+Power Link Nub:nubshag:8:4k Mania,Less-Power,Canon:#42c8f5
+Calming Competence:seb_shaggy:8:Canon:#d13030

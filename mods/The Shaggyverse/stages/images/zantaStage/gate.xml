@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gate.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gate0000" x="0" y="0" width="1002" height="723"/>
+	<SubTexture name="gate0001" x="1003" y="0" width="972" height="723" frameX="0" frameY="0" frameWidth="1002" frameHeight="723"/>
+</TextureAtlas>

@@ -1,0 +1,51 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": true,
+    "imagePath": "yellow-shaggy",
+    "spritesheetType": "SPARROW",
+    "barColor": [224, 215, 27],
+    "animations": [
+        {
+            "name": "danceLeft",
+            "animation_name": "shaggy_idle0",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "danceRight",
+            "animation_name": "shaggy_idle2",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "shaggy_left",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "shaggy_down",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "shaggy_up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "shaggy_right",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "burst",
+            "animation_name": "burst",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

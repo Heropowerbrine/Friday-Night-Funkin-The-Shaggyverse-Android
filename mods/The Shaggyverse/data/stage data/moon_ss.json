@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-415,
+				-180
+			],
+			"file_Name": "moon_ss",
+			"scale": 1.45,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1477,
+			1107
+		],
+		[
+			664,
+			1069
+		],
+		[
+			1068,
+			919
+		]
+	],
+	"camera_Zoom": 0.7
+}

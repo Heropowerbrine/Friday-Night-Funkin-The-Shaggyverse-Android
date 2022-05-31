@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-440,
+				-175
+			],
+			"file_Name": "forest",
+			"scale": 1,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			851,
+			798
+		],
+		[
+			189,
+			768
+		],
+		[
+			590,
+			666
+		]
+	],
+	"camera_Zoom": 0.9
+}

@@ -1,0 +1,128 @@
+{
+    "groupName": "Shaggyverse PT2",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week7",
+            "songs": [
+                "Cooldown",
+                "Soothing Power",
+                "Heatwave",
+                "Astromical Funk"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Undisturbed",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week8",
+            "songs": [
+                "Thunderstorm",
+                "Dissasembler",
+                "Red Man",
+                "Kami Fura"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Peacefulness",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week9",
+            "songs": [
+                "Paradoxical",
+                "Soaring Demiurges"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "The Unexpected Duo...",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week10",
+            "songs": [
+                "Sandstorm",
+                "Ultra Instinct",
+                "Demigod"
+            ],
+            "characters": [
+                "godred",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Going All Out",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week11",
+            "songs": [
+                "Disturbance",
+                "Ultra Instinct New"
+            ],
+            "characters": [
+                "god shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Oh No...",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week12",
+            "songs": [
+                "Snowstorm"
+            ],
+            "characters": [
+                "shaggy",
+                "bfxmas",
+                "gfxmas"
+            ],
+            "weekTitle": "Ice-Cold",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week13",
+            "songs": [
+                "Adagio"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Another One?",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

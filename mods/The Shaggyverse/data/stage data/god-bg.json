@@ -1,0 +1,426 @@
+{
+	"objects": [
+		{
+			"is_Animated": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.1,
+				0.1
+			],
+			"position": [
+				-650,
+				-850
+			],
+			"file_Name": "god_bg",
+			"scale": 0.8,
+			"start_Animation": "sky",
+			"animations": [
+				{
+					"animation_name": "bg",
+					"looped": true,
+					"fps": 30,
+					"name": "sky"
+				}
+			]
+		},
+		{
+			"is_Animated": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.3,
+				0.3
+			],
+			"position": [
+				-1050,
+				-1400
+			],
+			"file_Name": "god_bg",
+			"scale": 1,
+			"start_Animation": "cloud",
+			"animations": [
+				{
+					"animation_name": "cloud_smol",
+					"looped": true,
+					"fps": 30,
+					"name": "cloud"
+				}
+			]
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.4,
+				0.4
+			],
+			"position": [
+				100,
+				-800
+			],
+			"scale": 0.54,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_norm",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.4,
+				0.4
+			],
+			"position": [
+				400,
+				-300
+			],
+			"scale": 0.54,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_tiny",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.4,
+				0.4
+			],
+			"position": [
+				-750,
+				-400
+			],
+			"scale": 0.54,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_spike",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.4,
+				0.4
+			],
+			"position": [
+				-950,
+				-850
+			],
+			"scale": 0.54,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_small",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				-500,
+				-1700
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_norm",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				-1200,
+				-1750
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_rect",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				-800,
+				-1100
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_tiny",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				700,
+				-1850
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_spike",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				1300,
+				-1300
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_small",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				-800,
+				-800
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_spike",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				-1200,
+				-900
+			],
+			"scale": 1,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "deb_small",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-1350,
+				-3100
+			],
+			"file_Name": "god_bg",
+			"scale": 1,
+			"start_Animation": "cloud",
+			"animations": [
+				{
+					"animation_name": "cloud_big",
+					"looped": true,
+					"fps": 30,
+					"name": "cloud"
+				}
+			]
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.95,
+				0.95
+			],
+			"position": [
+				-200,
+				-20
+			],
+			"scale": 1.5,
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "broken_techo",
+					"looped": true,
+					"fps": 30,
+					"name": "techo"
+				}
+			],
+			"start_Animation": "techo"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				0.95,
+				0.95
+			],
+			"position": [
+				700,
+				-1700
+			],
+			"scale": 1.3,
+			"object_Name": "gf_rock",
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "gf_rock",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		},
+		{
+			"is_Animated": true,
+			"uses_Frame_Width": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				500,
+				-1700
+			],
+			"scale": 1,
+			"object_Name": "bf_rock",
+			"antialiased": true,
+			"file_Name": "god_bg",
+			"animations": [
+				{
+					"animation_name": "rock",
+					"looped": true,
+					"fps": 30,
+					"name": "rock"
+				}
+			],
+			"start_Animation": "rock"
+		}
+	],
+	"character_Positions": [
+		[
+			913,
+			-1555
+		],
+		[
+			74,
+			-1606
+		],
+		[
+			1088,
+			-1636
+		]
+	],
+	"camera_Zoom": 0.6
+}

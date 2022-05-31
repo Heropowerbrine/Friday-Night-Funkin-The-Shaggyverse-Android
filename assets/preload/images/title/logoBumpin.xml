@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Funkin Logo.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logo bumin instance 10000" x="0" y="0" width="983" height="595" frameX="-26" frameY="-20" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10001" x="983" y="0" width="1034" height="625"/>
+	<SubTexture name="logo bumin instance 10002" x="983" y="0" width="1034" height="625"/>
+	<SubTexture name="logo bumin instance 10003" x="0" y="625" width="1004" height="607" frameX="-16" frameY="-12" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10004" x="0" y="625" width="1004" height="607" frameX="-16" frameY="-12" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10005" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10006" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10007" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10008" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10009" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10010" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10011" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10012" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10013" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+	<SubTexture name="logo bumin instance 10014" x="1004" y="625" width="996" height="602" frameX="-19" frameY="-16" frameWidth="1034" frameHeight="625"/>
+</TextureAtlas>

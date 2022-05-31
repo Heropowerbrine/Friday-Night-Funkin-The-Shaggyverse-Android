@@ -1,0 +1,133 @@
+{
+    "groupName": "Shaggyverse PT1",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week0",
+            "songs": [
+                "Where Are You",
+                "Eruption",
+                "Kaio Ken"
+            ],
+            "characters": [
+                "shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "The First Deity",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week1",
+            "songs": [
+                "Whats New",
+                "Blast",
+                "Super Saiyan"
+            ],
+            "characters": [
+                "shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": " Having A Blast",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week2",
+            "songs": [
+                "Zen",
+                "Demagogue",
+                "Srperez Ultra Instinct"
+            ],
+            "characters": [
+                "shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Calm",
+            "difficulties": [
+
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week3",
+            "songs": [
+                "Surge",
+                "Enraged"
+            ],
+            "characters": [
+                "shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Craziness",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week4",
+            "songs": [
+                "Collapse",
+                "GOD EATER",
+                "Iscyhros"
+            ],
+            "characters": [
+                "pshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Immortality",
+            "difficulties": [
+
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week5",
+            "songs": [
+                "Power Link",
+                "Revenge",
+                "Coercion"
+            ],
+            "characters": [
+                "shaggymatt",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "The Two Unbeatables",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week6",
+            "songs": [
+                "Destructive Duo",
+                "Burning Regret",
+                "Final Destination",
+                "Cosmic Cessation",
+                "Cheater Suffering"
+            ],
+            "characters": [
+                "shaggymatt",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Rematch",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

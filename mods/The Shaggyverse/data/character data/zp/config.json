@@ -1,0 +1,14 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [180, 97, 148],
+    "characters": [
+        {
+            "name": "purple-shaggy",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "shaggy_phantom",
+            "positionOffset": [-225,220]
+        }
+    ]
+}

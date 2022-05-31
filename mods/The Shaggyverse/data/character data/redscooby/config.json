@@ -1,0 +1,39 @@
+{
+    "defaultFlipX": true,
+    "dancesLeftAndRight": false,
+    "imagePath": "redscooby",
+    "spritesheetType": "SPARROW",
+    "barColor":  [199, 111, 211],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "scoob_idle",
+            "fps": 24,
+            "looped": true
+        },
+        {
+            "name": "scare",
+            "animation_name": "scoob_scare",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blur",
+            "animation_name": "scoob_blur",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "fall",
+            "animation_name": "scoob_fall",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "walk",
+            "animation_name": "scoob_walk",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "groupName": "Original Weeks",
+    "pathName": "default",
+    "weeks": [
+        {
+            "imagePath": "tutorial",
+            "songs": [
+                "Tutorial"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+	"character_Positions": [
+		[
+			1177,
+			1087
+		],
+		[
+			214,
+			1069
+		],
+		[
+			1458,
+			1006
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-475,
+				-275
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 2.9,
+			"file_Name": "hell",
+			"alpha": 1
+		}
+	],
+	"camera_Zoom": 0.725
+}

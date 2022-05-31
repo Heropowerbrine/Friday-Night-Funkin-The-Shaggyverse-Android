@@ -1,0 +1,21 @@
+{
+    "groupName": "Seb-Sides PT1",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week0",
+            "songs": [
+                "Calming Competence"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "seb shaggy? :o",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

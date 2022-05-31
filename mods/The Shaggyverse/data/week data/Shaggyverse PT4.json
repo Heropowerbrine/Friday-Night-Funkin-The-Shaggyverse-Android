@@ -1,0 +1,136 @@
+{
+    "groupName": "Shaggyverse PT4",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week21",
+            "songs": [
+                "Twofold Tension",
+                "Godified Destruction"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "offsetshaggy"
+            ],
+            "weekTitle": "The Two...",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week22",
+            "songs": [
+                "Despondency"
+            ],
+            "characters": [
+                "orangeshaggy_menu",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Who are you..?",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week23",
+            "songs": [
+                "Chill",
+                "Tray Doe",
+                "Furia"
+            ],
+            "characters": [
+                "shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "He's back...",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week24",
+            "songs": [
+                "Game Over"
+            ],
+            "characters": [
+                "omatt_menu",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Funny Matt",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week25",
+            "songs": [
+                "Addition"
+            ],
+            "characters": [
+                "shaggymatt",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Ah fuck math",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week26",
+            "songs": [
+                "Capability Binding"
+            ],
+            "characters": [
+                "god shaggy",
+                "playerbshaggy",
+                "gf"
+            ],
+            "weekTitle": "Spaceman 2.0",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week27",
+            "songs": [
+                "Playing With God"
+            ],
+            "characters": [
+                "pshaggy",
+                "bf",
+                "matt"
+            ],
+            "weekTitle": "Aw heck naw the shaggy go do doh tree doh tree do trey doh doh",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week28",
+            "songs": [
+                "multi-zoink"
+            ],
+            "characters": [
+                "sshaggy",
+                "blueperez",
+                ""
+            ],
+            "weekTitle": "The Odd One Out",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

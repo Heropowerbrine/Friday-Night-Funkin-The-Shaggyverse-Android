@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_ShaggyMatt.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M ShaggyMatt Idle0014" x="10" y="10" width="328" height="395" frameX="-7" frameY="0" frameWidth="344" frameHeight="395"/>
+</TextureAtlas>

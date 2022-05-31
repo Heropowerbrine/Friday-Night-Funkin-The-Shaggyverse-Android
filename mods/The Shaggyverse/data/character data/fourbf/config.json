@@ -1,0 +1,22 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [102, 255, 153],
+    "characters": [
+        {
+            "name": "bf",
+            "positionOffset": [0,20]
+        },
+        {
+            "name": "bside_bf",
+            "positionOffset": [-200,40]
+        },
+        {
+            "name": "neo_bf",
+            "positionOffset": [-400,70]
+        },
+        {
+            "name": "dbf",
+            "positionOffset": [-600,80]
+        }
+    ]
+}

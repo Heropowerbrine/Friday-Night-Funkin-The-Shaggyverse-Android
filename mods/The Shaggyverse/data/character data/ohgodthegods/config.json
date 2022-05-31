@@ -1,0 +1,30 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [102, 255, 153],
+    "characters": [
+        {
+            "name": "green-shaggy",
+            "positionOffset": [-200,20]
+        },
+        {
+            "name": "red-shaggy",
+            "positionOffset": [100,20]
+        },
+        {
+            "name": "omatt",
+            "positionOffset": [-260,40]
+        },
+        {
+            "name": "matt",
+            "positionOffset": [220,40]
+        },
+        {
+            "name": "bambi",
+            "positionOffset": [-100,60]
+        },
+        {
+            "name": "bbambi",
+            "positionOffset": [100,60]
+        }
+    ]
+}

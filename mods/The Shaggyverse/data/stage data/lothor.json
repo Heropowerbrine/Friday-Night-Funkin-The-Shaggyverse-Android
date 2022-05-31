@@ -1,0 +1,34 @@
+{
+	"character_Positions": [
+		[
+			980,
+			910
+		],
+		[
+			236,
+			989
+		],
+		[
+			584,
+			736
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-480,
+				-300
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 2.35,
+			"file_Name": "outside",
+			"alpha": 1
+		}
+	],
+	"camera_Zoom": 0.9
+}

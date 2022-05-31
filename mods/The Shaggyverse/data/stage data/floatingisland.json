@@ -1,0 +1,33 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-500,
+				-75
+			],
+			"file_Name": "floatingisland",
+			"scale": 1.75
+		}
+	],
+	"character_Positions": [
+		[
+			1167,
+			825
+		],
+		[
+			287,
+			871
+		],
+		[
+			600,
+			775
+		]
+	],
+	"camera_Zoom": 0.9
+}
