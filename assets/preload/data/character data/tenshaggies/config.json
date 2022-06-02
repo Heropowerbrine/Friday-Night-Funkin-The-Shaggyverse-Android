@@ -1,0 +1,46 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [209, 26, 26],
+    "characters": [
+        {
+            "name": "god-red-shaggy",
+            "positionOffset": [-400,0]
+        },
+        {
+            "name": "god-orange-shaggy",
+            "positionOffset": [-300,0]
+        },
+        {
+            "name": "god-yellow-shaggy",
+            "positionOffset": [-200,0]
+        },
+        {
+            "name": "god-shaggy",
+            "positionOffset": [-100,0]
+        }, 
+        {
+            "name": "god-blue-shaggy",
+            "positionOffset": [0,0]
+        }, 
+        {
+            "name": "god-purple-shaggy",
+            "positionOffset": [100,0]
+        }, 
+        {
+            "name": "god-pink-shaggy",
+            "positionOffset": [200,0]
+        }, 
+        {
+            "name": "god-brown-shaggy",
+            "positionOffset": [300,0]
+        }, 
+        {
+            "name": "god-black-shaggy",
+            "positionOffset": [400,0]
+        }, 
+        {
+            "name": "god-white-shaggy",
+            "positionOffset": [500,0]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [102, 255, 153],
+    "characters": [
+        {
+            "name": "bf",
+            "positionOffset": [-400,20]
+        },
+        {
+            "name": "bside_bf",
+            "positionOffset": [-200,40]
+        },
+        {
+            "name": "neo_bf",
+            "positionOffset": [0,60]
+        },
+        {
+            "name": "dbf",
+            "positionOffset": [-200,80]
+        },
+        {
+            "name": "playerbf",
+            "positionOffset": [-400,80]
+        },
+        {
+            "name": "postboybf",
+            "positionOffset": [-600,80]
+        }
+    ]
+}

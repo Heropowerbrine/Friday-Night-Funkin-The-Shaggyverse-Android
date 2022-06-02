@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1.0,
+				1.0
+			],
+			"position": [
+				-435,
+				-170
+			],
+			"file_Name": "moongod",
+			"scale": 1.7,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1947,
+			1304
+		],
+		[
+			414,
+			1149
+		],
+		[
+			1171,
+			698
+		]
+	],
+	"camera_Zoom": 0.7
+}

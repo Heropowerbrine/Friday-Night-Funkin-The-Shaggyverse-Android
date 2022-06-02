@@ -1,0 +1,9 @@
+{
+    "Animation_Name": "shaggy_idle",
+    "Animation_Looped": true,
+    "FPS": 24,
+    "Size": 0.545,
+    "Offsets": [0, 200],
+    "File_Name": "menu_god_shaggy",
+    "Flipped": false
+}

@@ -1,0 +1,203 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "dialogueMusic": "",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueIdle",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "(After Tray Doe...)",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "f_sh_smug",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueIdle",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Zoinks, man, you're as good as I remember!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "f_sh_smug",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueBa",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Beep bap beep, skdoo be boop bap!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "f_sh_con",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueBa",
+                "flipped": true,
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "You want a challenge?",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "f_sh_con",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueIdle",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Skdee bap!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "f_sh_kill",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueIdle",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Alright, alright...",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "ss_idle",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bfDialogueIdle",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Like, here we go, man!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        }
+    ]
+}

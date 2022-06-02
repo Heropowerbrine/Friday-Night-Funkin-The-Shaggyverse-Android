@@ -1,0 +1,129 @@
+{
+    "groupName": "Shaggyverse PT3",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week14",
+            "songs": [
+                "Uproar",
+                "Solstice",
+                "Sunlight"
+            ],
+            "characters": [
+                "yshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Even More Divinities",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week15",
+            "songs": [
+                "Energy Saver",
+                "Intergalactic Sin",
+                "Chance"
+            ],
+            "characters": [
+                "bshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Space",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week16",
+            "songs": [
+                "Absolute Chaos",
+                "Godlike"
+            ],
+            "characters": [
+                "shaggymatt",
+                "bf",
+                "bambi"
+            ],
+            "weekTitle": "Doom... Takes Place In 2022",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week17",
+            "songs": [
+                "Quadripresent Deitys",
+                "Galaxy Demolisher",
+                "Immortals Division",
+                "Multicolor Demise"
+            ],
+            "characters": [
+                "rgybshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "ALL FOUR OF THEM?!",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week18",
+            "songs": [
+                "Deadly Temptation"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "The Brawl",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week19",
+            "songs": [
+                "Astral Calamity",
+                "Aura"
+            ],
+            "characters": [
+                "wbshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Demiurge",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week20",
+            "songs": [
+                "Neutron",
+                "Universe Conquerer",
+                "Talladega"
+            ],
+            "characters": [
+                "zshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Final Battle..?",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

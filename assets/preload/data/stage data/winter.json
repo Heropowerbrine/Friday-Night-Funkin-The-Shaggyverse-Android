@@ -1,0 +1,33 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-495,
+				-305
+			],
+			"file_Name": "winter",
+			"scale": 1.2
+		}
+	],
+	"character_Positions": [
+		[
+			2438,
+			1529
+		],
+		[
+			1528,
+			1534
+		],
+		[
+			1963,
+			1449
+		]
+	],
+	"camera_Zoom": 0.7
+}

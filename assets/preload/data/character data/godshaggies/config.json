@@ -1,0 +1,22 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [209, 26, 26],
+    "characters": [
+        {
+            "name": "god-red-shaggy",
+            "positionOffset": [-200,0]
+        },
+        {
+            "name": "god-shaggy",
+            "positionOffset": [-400,0]
+        },
+        {
+            "name": "god-yellow-shaggy",
+            "positionOffset": [200,0]
+        }, 
+        {
+            "name": "god-blue-shaggy",
+            "positionOffset": [0,0]
+        }
+    ]
+}

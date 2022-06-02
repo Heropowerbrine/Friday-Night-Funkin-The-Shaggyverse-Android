@@ -1,0 +1,9 @@
+{
+    "Animation_Name": "Idle",
+    "Animation_Looped": true,
+    "FPS": 24,
+    "Size": 0.45,
+    "Offsets": [215, 215],
+    "File_Name": "bambi",
+    "Flipped": false
+}

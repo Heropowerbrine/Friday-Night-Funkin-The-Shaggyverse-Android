@@ -1,0 +1,33 @@
+{
+	"character_Positions": [
+		[
+			1203,
+			1437
+		],
+		[
+			214,
+			1394
+		],
+		[
+			684,
+			1254
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-500,
+				-80
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 2.2,
+			"file_Name": "heaven"
+		}
+	],
+	"camera_Zoom": 0.75
+}

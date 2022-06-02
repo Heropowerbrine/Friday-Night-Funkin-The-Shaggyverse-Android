@@ -1,0 +1,34 @@
+{
+	"character_Positions": [
+		[
+			2108,
+			1409
+		],
+		[
+			975,
+			1324
+		],
+		[
+			1370,
+			1134
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-480,
+				-300
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 3.85,
+			"file_Name": "darkgod",
+			"alpha": 1
+		}
+	],
+	"camera_Zoom": 0.6
+}

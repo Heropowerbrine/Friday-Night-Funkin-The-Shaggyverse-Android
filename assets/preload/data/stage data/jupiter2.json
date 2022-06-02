@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-419,
+				-188
+			],
+			"file_Name": "jupiter2",
+			"scale": 2.15,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1550,
+			1224
+		],
+		[
+			447,
+			1227
+		],
+		[
+			993,
+			1111
+		]
+	],
+	"camera_Zoom": 0.65
+}

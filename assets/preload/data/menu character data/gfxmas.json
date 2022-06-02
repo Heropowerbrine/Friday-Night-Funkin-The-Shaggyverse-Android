@@ -1,0 +1,10 @@
+{
+    "Animation_Name": "GF Dancing Beat",
+    "Animation_Looped": true,
+    "FPS": 24,
+    "Size": 0.475
+    ,
+    "Offsets": [205, 130],
+    "File_Name": "gfChristmas",
+    "Flipped": false
+}

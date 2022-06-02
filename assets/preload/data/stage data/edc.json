@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1.0,
+				1.0
+			],
+			"position": [
+				-475,
+				-185
+			],
+			"file_Name": "edc",
+			"scale": 2.2,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			2033,
+			1339
+		],
+		[
+			674,
+			1349
+		],
+		[
+			1429,
+			1034
+		]
+	],
+	"camera_Zoom": 0.525
+}

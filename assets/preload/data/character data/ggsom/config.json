@@ -1,0 +1,14 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [144, 187, 119],
+    "characters": [
+        {
+            "name": "god-shaggy",
+            "positionOffset": [-225,0]
+        },
+        {
+            "name": "angryorangematt",
+            "positionOffset": [0,0]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "groupName": "Shaggyverse PT6",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week35",
+            "songs": [
+                "spacial collapse",
+                "agnate"
+            ],
+            "characters": [
+                "cyshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "This is Mercury, Frensly, you fard",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week36",
+            "songs": [
+                "infiltrate"
+            ],
+            "characters": [
+                "brshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Starry Night",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

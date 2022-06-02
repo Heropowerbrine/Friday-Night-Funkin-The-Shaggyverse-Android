@@ -1,0 +1,39 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "shaggy_blueperez",
+    "spritesheetType": "SPARROW",
+    "barColor": [108, 139, 201],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "shaggy_idle",
+            "fps": 30,
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "shaggy_left",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "shaggy_down",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "shaggy_up",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "shaggy_right",
+            "fps": 30,
+            "looped": false
+        }
+    ]
+}

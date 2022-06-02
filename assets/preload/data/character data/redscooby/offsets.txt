@@ -1,0 +1,5 @@
+idle 0 0
+blur 0 0
+fall 0 0
+scare 0 0
+walk 0 0
