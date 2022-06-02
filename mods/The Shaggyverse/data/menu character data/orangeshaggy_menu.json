@@ -1,9 +1,0 @@
-{
-    "Animation_Name": "shaggy_idle",
-    "Animation_Looped": true,
-    "FPS": 24,
-    "Size": 0.15,
-    "Offsets": [100, 180],
-    "File_Name": "orangeshaggy_menu",
-    "Flipped": false
-}
