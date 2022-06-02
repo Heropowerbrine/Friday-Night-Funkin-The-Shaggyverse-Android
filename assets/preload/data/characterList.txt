@@ -17,3 +17,14 @@ senpai:default
 senpai-angry:default
 spirit:default
 tankman:default
+RonMatt:default
+RonShag:default
+SpurkMatt:default
+SpurkShag:default
+angrybluematt:default
+angryorangematt:default
+bambi:default
+bbambi:default
+bgf:default
+blue-green-shaggy:default
+blue-shaggy:default
