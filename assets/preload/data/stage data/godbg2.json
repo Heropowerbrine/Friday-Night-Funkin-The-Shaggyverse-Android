@@ -1,0 +1,33 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.95,
+				0.95
+			],
+			"position": [
+				-395,
+				-158
+			],
+			"file_Name": "godbg2",
+			"scale": 3.05
+		}
+	],
+	"character_Positions": [
+		[
+			1530,
+			1193
+		],
+		[
+			502,
+			1189
+		],
+		[
+			1046,
+			953
+		]
+	],
+	"camera_Zoom": 0.65
+}

@@ -1,0 +1,115 @@
+{
+    "groupName": "Shaggyverse PT5",
+    "pathName": "shaggyverse",
+    "weeks": [
+        {
+            "imagePath": "week28",
+            "songs": [
+                "multi-zoink"
+            ],
+            "characters": [
+                "sshaggy",
+                "blueperez",
+                ""
+            ],
+            "weekTitle": "The Odd One Out",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week29",
+            "songs": [
+                "suprise!"
+            ],
+            "characters": [
+                "zshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "What do you mean you dont like suprises?",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week30",
+            "songs": [
+                "lunar vigor"
+            ],
+            "characters": [
+                "sshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Aw heck naw the helmet go off",
+            "difficulties": [
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week31",
+            "songs": [
+                "multiversal"
+            ],
+            "characters": [
+                "rshaggy",
+                "bf",
+                "offsetshaggy"
+            ],
+            "weekTitle": "Double Trouble",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week32",
+            "songs": [
+                "edc"
+            ],
+            "characters": [
+                "zshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "The crossover of the century",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week33",
+            "songs": [
+                "iscyhros new"
+            ],
+            "characters": [
+                "pshaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "The Rematch",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        },
+        {
+            "imagePath": "week34",
+            "songs": [
+                "imitheos"
+            ],
+            "characters": [
+                "shaggy",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Seb help im running out of week names",
+            "difficulties": [
+                ["4k Mania", "shaggy/mania"],
+                ["canon", "shaggy/canon"]
+            ]
+        }
+    ]
+}

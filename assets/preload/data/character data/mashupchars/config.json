@@ -1,0 +1,26 @@
+{
+    "cameraOffset": [0, -250],
+    "barColor": [0, 0, 0],
+    "characters": [
+        {
+            "name": "RonShag",
+            "positionOffset": [-200,0]
+        },
+        {
+            "name": "RonMatt",
+            "positionOffset": [-400,20]
+        },
+        {
+            "name": "SpurkShag",
+            "positionOffset": [-500,220]
+        },
+        {
+            "name": "SpurkMatt",
+            "positionOffset": [-700,220]
+        },
+        {
+            "name": "god-god-shaggy",
+            "positionOffset": [100,100]
+        }
+    ]
+}

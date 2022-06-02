@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-465,
+				-180
+			],
+			"file_Name": "funny",
+			"scale": 0.9,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			4224,
+			2599
+		],
+		[
+			1947,
+			2409
+		],
+		[
+			3193,
+			1619
+		]
+	],
+	"camera_Zoom": 0.3
+}

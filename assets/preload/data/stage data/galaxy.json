@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-480,
+				-300
+			],
+			"alpha": 1,
+			"file_Name": "galaxy",
+			"scale": 2
+		}
+	],
+	"character_Positions": [
+		[
+			821,
+			879
+		],
+		[
+			324,
+			856
+		],
+		[
+			499,
+			724
+		]
+	],
+	"camera_Zoom": 0.9
+}

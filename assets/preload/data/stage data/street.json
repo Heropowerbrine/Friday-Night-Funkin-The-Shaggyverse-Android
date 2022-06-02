@@ -1,0 +1,34 @@
+{
+	"character_Positions": [
+		[
+			1948,
+			1599
+		],
+		[
+			843,
+			1519
+		],
+		[
+			1421,
+			1501
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-415,
+				-185
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"alpha": 1,
+			"scale": 1.8,
+			"file_Name": "street"
+		}
+	],
+	"camera_Zoom": 0.6
+}

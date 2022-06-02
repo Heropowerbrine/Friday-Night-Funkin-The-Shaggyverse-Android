@@ -1,0 +1,9 @@
+{
+    "Animation_Name": "pshaggy_idle",
+    "Animation_Looped": true,
+    "FPS": 24,
+    "Size": 0.5,
+    "Offsets": [420, 265],
+    "File_Name": "god-red-shaggy",
+    "Flipped": false
+}

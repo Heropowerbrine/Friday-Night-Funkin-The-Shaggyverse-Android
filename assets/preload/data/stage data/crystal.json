@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-465,
+				-185
+			],
+			"file_Name": "crystal",
+			"scale": 1.75,
+			"alpha": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1712,
+			1825
+		],
+		[
+			757,
+			1803
+		],
+		[
+			1222,
+			1678
+		]
+	],
+	"camera_Zoom": 0.55
+}
