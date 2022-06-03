@@ -3,7 +3,7 @@
 name: Android Build
 
 # Controls when the action will run. 
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 jobs:
   buildAndroid:
     # The type of runner that the job will run on
