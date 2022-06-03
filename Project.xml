@@ -117,7 +117,7 @@
 	<haxelib name="polymod"/>
 	
 	<haxelib name="discord_rpc" if="desktop"/>
-	<haxelib name="linc_luajit" if="desktop"/>
+	<haxelib name="linc_luajit" if="desktop || android"/>
 	
 	<haxelib name="extension-videoview" if="android"/>
         <haxelib name="extension-androidtools" if="android"/>
