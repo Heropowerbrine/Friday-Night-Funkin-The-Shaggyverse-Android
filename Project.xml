@@ -93,6 +93,8 @@
 
 	<assets path="assets/preload/fonts" rename="assets/fonts" library="fonts" />
 	
+	<assets path="assets/preload/data" rename="assets/data" library="data" embed="true" />
+	
 	<assets path='art/readme.txt' rename='do NOT readme.txt' />
 	<assets path='art/manual.txt' rename='manual.txt' />
 	<assets path='art/sorry the icon is broken lmao.txt' rename='sorry the icon is broken lmao.txt' />
