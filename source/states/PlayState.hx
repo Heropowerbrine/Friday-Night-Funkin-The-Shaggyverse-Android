@@ -1383,7 +1383,6 @@ class PlayState extends MusicBeatState
 
 	function startCountdown():Void
 	{
-		_hitbox.visible = true;
 		inCutscene = false;
 		paused = false;
 		canPause = true;
