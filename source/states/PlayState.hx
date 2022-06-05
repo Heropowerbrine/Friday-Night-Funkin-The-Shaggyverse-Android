@@ -72,6 +72,7 @@ import substates.PauseSubState;
 import substates.GameOverSubstate;
 import game.Highscore;
 import openfl.utils.Assets as OpenFlAssets;
+import android.flixel.FlxHitbox;
 
 using StringTools;
 
