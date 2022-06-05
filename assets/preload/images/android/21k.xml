@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hitboxhell.png">
+	<SubTexture name="K1" x="0" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K2" x="60" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K3" x="120" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K4" x="180" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K5" x="240" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K6" x="300" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K7" x="360" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K8" x="420" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K9" x="480" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K10" x="540" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K11" x="600" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K12" x="660" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K13" x="720" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K14" x="780" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K15" x="840" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K16" x="900" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K17" x="960" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K18" x="1020" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+	<SubTexture name="K19" x="1080" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K20" x="1140" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+        <SubTexture name="K21" x="1200" y="0" width="60" height="720" frameX="0" frameY="0" frameWidth="60" frameHeight="720"/>
+</TextureAtlas>
