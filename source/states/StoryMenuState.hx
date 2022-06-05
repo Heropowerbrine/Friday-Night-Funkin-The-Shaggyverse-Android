@@ -70,6 +70,10 @@ class StoryMenuState extends MusicBeatState
 		// CREATE THE UI //
 		createStoryUI();
 
+		#if android
+	        addVirtualPad(FULL, A_B_C_X_Y_Z);
+                #end
+
 		super.create();
 	}
 
@@ -110,9 +114,9 @@ class StoryMenuState extends MusicBeatState
 				if (controls.LEFT_P)
 					changeDifficulty(-1);
 
-				if(FlxG.keys.justPressed.E)
+				if(FlxG.keys.justPressed.E #if android || _virtualpad.buttonY.justPressed #end)
 					changeGroup(1);
-				if(FlxG.keys.justPressed.Q)
+				if(FlxG.keys.justPressed.Q #if android || _virtualpad.buttonX.justPressed #end)
 					changeGroup(-1);
 
 				if(controls.RESET)
@@ -226,7 +230,7 @@ class StoryMenuState extends MusicBeatState
 		groupSwitchText.borderSize = 1;
 		add(groupSwitchText);
 
-		var groupInfoText = new FlxText(leftArrow.x, difficultySprite.y + difficultySprite.height + 96, 0, "Q + E to change groups\nRESET to reset week score\n", 24);
+		var groupInfoText = new FlxText(leftArrow.x, difficultySprite.y + difficultySprite.height + 96, 0, "X + Y to change groups\nZ to reset week score\n", 24);
 		groupInfoText.alignment = LEFT;
 		groupInfoText.font = weekSongListText.font;
 		groupInfoText.color = FlxColor.WHITE;
