@@ -13,8 +13,8 @@ import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
 #if android
 import flixel.input.actions.FlxActionInput;
-import android.AndroidControls.AndroidControls;
 import android.flixel.FlxVirtualPad;
+import android.flixel.FlxHitbox;
 #end
 
 class MusicBeatState extends FlxUIState
