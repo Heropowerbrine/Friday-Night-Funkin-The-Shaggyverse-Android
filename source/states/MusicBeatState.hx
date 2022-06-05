@@ -40,24 +40,23 @@ class MusicBeatState extends FlxUIState
 	var trackedinputsUI:Array<FlxActionInput> = [];
 	var trackedinputsNOTES:Array<FlxActionInput> = [];
 	#end
-	
 	#if android
 	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
-		_virtualpad = new FlxVirtualPad(DPad, Action, 0.75);
+		_virtualpad = new FlxVirtualPad(DPad, Action);
+		_virtualpad.alpha = 0.75;
+		var padcam = new FlxCamera();
+		FlxG.cameras.add(padcam);
+		padcam.bgColor.alpha = 0;
+		_virtualpad.cameras = [padcam];
 		add(_virtualpad);
-		controls.setVirtualPadUI(_virtualpad, DPad, Action);
-		trackedinputsUI = controls.trackedinputsUI;
-		controls.trackedinputsUI = [];
+		controls.setVirtualPad(_virtualpad, DPad, Action);
+		trackedinputs = controls.trackedinputs;
+		controls.trackedinputs = [];
+
+		controls.addAndroidBack();
 	}
 	#end
-
-	#if android
-	public function removeVirtualPad() {
-		controls.removeFlxInput(trackedinputsUI);
-		remove(_virtualpad);
-	}
-	#end
-
+	
 	#if android
 	public function addHitbox(keyCount:Int) {               
 		var curhitbox:HitboxType = FOUR;
