@@ -13,6 +13,7 @@ import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
 #if android
 import flixel.input.actions.FlxActionInput;
+import flixel.FlxCamera;
 import android.flixel.FlxVirtualPad;
 import android.flixel.FlxHitbox;
 #end
@@ -50,10 +51,8 @@ class MusicBeatState extends FlxUIState
 		_virtualpad.cameras = [padcam];
 		add(_virtualpad);
 		controls.setVirtualPad(_virtualpad, DPad, Action);
-		trackedinputs = controls.trackedinputs;
-		controls.trackedinputs = [];
-
-		controls.addAndroidBack();
+		trackedinputs = controls.trackedinputsUI;
+		controls.trackedinputsUI = [];
 	}
 	#end
 	
