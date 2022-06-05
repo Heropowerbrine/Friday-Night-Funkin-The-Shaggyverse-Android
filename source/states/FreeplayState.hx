@@ -204,9 +204,9 @@ class FreeplayState extends MusicBeatState
 		add(textBG);
 
 		#if PRELOAD_ALL
-		var leText:String = "Press RESET to reset song score and rank | Press SPACE to play Song Audio | Shift + LEFT and RIGHT to change song speed";
+		var leText:String = "Press X to reset song score and rank | Press Y to play Song Audio | C + LEFT and RIGHT to change song speed";
 		#else
-		var leText:String = "Press RESET to reset song score";
+		var leText:String = "Press X to reset song score";
 		#end
 
 		var text:FlxText = new FlxText(textBG.x - 1, textBG.y + 4, FlxG.width, leText, 18);
@@ -214,6 +214,10 @@ class FreeplayState extends MusicBeatState
 		text.scrollFactor.set();
 		add(text);
 
+		#if android
+	        addVirtualPad(FULL, A_B_C_X_Y);
+                #end
+		
 		super.create();
 	}
 
@@ -284,7 +288,7 @@ class FreeplayState extends MusicBeatState
 
 		var leftP = controls.LEFT_P;
 		var rightP = controls.RIGHT_P;
-		var shift = FlxG.keys.pressed.SHIFT;
+		var shift = FlxG.keys.pressed.SHIFT #if android || _virtualpad.buttonC.justPressed #end;
 
 		var upP = controls.UP_P;
 		var downP = controls.DOWN_P;
@@ -386,7 +390,7 @@ class FreeplayState extends MusicBeatState
 			}
 
 			#if PRELOAD_ALL
-			if (FlxG.keys.justPressed.SPACE)
+			if (FlxG.keys.justPressed.SPACE #if android || _virtualpad.buttonY.justPressed #end)
 			{
 				destroyFreeplayVocals();
 
@@ -437,7 +441,7 @@ class FreeplayState extends MusicBeatState
 			#end
 			#end
 
-			if(controls.RESET && !shift)
+			if(controls.RESET #if android || _virtualpad.buttonX.justPressed #end && !shift)
 			{
 				openSubState(new ResetScoreSubstate(songs[curSelected].songName, curDiffString));
 				changeSelection();
