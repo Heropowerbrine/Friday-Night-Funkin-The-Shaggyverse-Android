@@ -447,7 +447,7 @@ class FreeplayState extends MusicBeatState
 				changeSelection();
 			}
 
-			if(FlxG.keys.justPressed.ENTER && canEnterSong)
+			if(FlxG.keys.justPressed.ENTER #if android || _virtualpad.buttonA.justPressed && canEnterSong)
 			{
 				var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDiffString);
 	
