@@ -7,6 +7,7 @@ import flixel.FlxSprite;
 import game.Highscore;
 import ui.Alphabet;
 import flixel.FlxG;
+import flixel.addons.transition.FlxTransitionableState;
 
 class ResetScoreSubstate extends MusicBeatSubstate
 {
@@ -51,6 +52,10 @@ class ResetScoreSubstate extends MusicBeatSubstate
         add(areYouSure);
         add(yes);
         add(no);
+        
+        #if android
+	    addVirtualPad(LEFT_RIGHT, A_B);
+        #end
     }
 
     override function update(elapsed:Float)
@@ -83,6 +88,11 @@ class ResetScoreSubstate extends MusicBeatSubstate
         }
 
         if(controls.BACK)
+            #if android
+            FlxTransitionableState.skipNextTransOut = true;
+			FlxG.resetState();
+            #else
             FlxG.state.closeSubState();
+            #end
     }
 }
