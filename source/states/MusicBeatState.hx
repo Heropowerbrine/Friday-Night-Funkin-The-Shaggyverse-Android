@@ -50,8 +50,8 @@ class MusicBeatState extends FlxUIState
 		padcam.bgColor.alpha = 0;
 		_virtualpad.cameras = [padcam];
 		add(_virtualpad);
-		controls.setVirtualPad(_virtualpad, DPad, Action);
-		trackedinputs = controls.trackedinputsUI;
+		controls.setVirtualPadUI(_virtualpad, DPad, Action);
+		trackedinputsUI = controls.trackedinputsUI;
 		controls.trackedinputsUI = [];
 	}
 	#end
