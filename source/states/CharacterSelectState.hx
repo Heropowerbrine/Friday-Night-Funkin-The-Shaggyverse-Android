@@ -75,11 +75,7 @@ class CharacterSelectState extends MusicBeatState
 	}
 	
 	override public function create():Void 
-	{
-		#if android
-	        addVirtualPad(FULL, A_B);
-                #end
-			
+	{	
 		super.create();
 		Conductor.changeBPM(110);
 
