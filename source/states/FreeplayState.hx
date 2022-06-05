@@ -410,7 +410,7 @@ class FreeplayState extends MusicBeatState
 				vocals.volume = 0.7;
 			}
 
-			if(vocals != null && FlxG.sound.music != null && !FlxG.keys.justPressed.ENTER)
+			if(vocals != null && FlxG.sound.music != null && !FlxG.keys.justPressed.ENTER #if android || _virtualpad.buttonC.justPressed)
 			{
 				if(vocals.active && FlxG.sound.music.active)
 				{
@@ -432,10 +432,10 @@ class FreeplayState extends MusicBeatState
 			#if cpp
 			@:privateAccess
 			{
-				if(FlxG.sound.music.active && FlxG.sound.music.playing && !FlxG.keys.justPressed.ENTER)
+				if(FlxG.sound.music.active && FlxG.sound.music.playing && !FlxG.keys.justPressed.ENTER #if android || _virtualpad.buttonC.justPressed)
 					lime.media.openal.AL.sourcef(FlxG.sound.music._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
 	
-				if(vocals.active && vocals.playing && !FlxG.keys.justPressed.ENTER)
+				if(vocals.active && vocals.playing && !FlxG.keys.justPressed.ENTER #if android || _virtualpad.buttonC.justPressed)
 					lime.media.openal.AL.sourcef(vocals._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
 			}
 			#end
