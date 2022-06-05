@@ -1,0 +1,20 @@
+?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="16k.png">
+	<SubTexture name="K1" x="0" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K2" x="75" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K3" x="150" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K4" x="225" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K5" x="300" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K6" x="375" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K7" x="450" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K8" x="525" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K9" x="600" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+	<SubTexture name="K10" x="675" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K11" x="750" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K12" x="825" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K13" x="900" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K14" x="975" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K15" x="1050" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K16" x="1125" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+  <SubTexture name="K17" x="1200" y="0" width="75" height="720" frameX="0" frameY="0" frameWidth="75" frameHeight="720"/>
+</TextureAtlas>
