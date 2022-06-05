@@ -954,11 +954,13 @@ class PlayState extends MusicBeatState
 			iconP1.cameras = [camHUD];
 			iconP2.cameras = [camHUD];
 			scoreTxt.cameras = [camHUD];
-			
-			addHitbox(ogPlayerKeyCount);
 
 			if(utilities.Options.getData("sideRatings") == true)
 				ratingText.cameras = [camHUD];
+					
+			#if android		
+			addHitbox(ogPlayerKeyCount);
+			#end
 
 			startingSong = true;
 
