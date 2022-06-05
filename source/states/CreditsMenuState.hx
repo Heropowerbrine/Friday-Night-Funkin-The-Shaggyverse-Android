@@ -434,6 +434,10 @@ class CreditsMenuState extends MusicBeatState
          creditsText.text.y = scaledY * 75 + (FlxG.height * 0.5);
       }
 
+		#if android
+	        addVirtualPad(UP_DOWN, A_B);
+                #end
+		
 		super.create();
 	}
    
