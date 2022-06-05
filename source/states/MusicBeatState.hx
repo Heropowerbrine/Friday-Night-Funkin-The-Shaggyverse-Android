@@ -11,6 +11,11 @@ import game.Conductor.BPMChangeEvent;
 import utilities.Controls;
 import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
+#if android
+import flixel.input.actions.FlxActionInput;
+import android.AndroidControls.AndroidControls;
+import android.flixel.FlxVirtualPad;
+#end
 
 class MusicBeatState extends FlxUIState
 {
