@@ -955,7 +955,7 @@ class PlayState extends MusicBeatState
 			iconP2.cameras = [camHUD];
 			scoreTxt.cameras = [camHUD];
 			
-			addHitbox(keyCount);
+			addHitbox(mania);
 
 			if(utilities.Options.getData("sideRatings") == true)
 				ratingText.cameras = [camHUD];
