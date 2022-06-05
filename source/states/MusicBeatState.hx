@@ -135,7 +135,8 @@ class MusicBeatState extends FlxUIState
 		controls.removeFlxInput(trackedinputsUI);
 		controls.removeFlxInput(trackedinputsNOTES);	
 		#end
-
+	}
+	
 	override function update(elapsed:Float)
 	{
 		//everyStep();
