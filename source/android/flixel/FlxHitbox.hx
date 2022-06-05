@@ -92,7 +92,7 @@ class FlxHitbox extends FlxSpriteGroup {
                 hitbox.add(add(K2 = createhitbox(426, 0, "K2")));
                 hitbox.add(add(K3 = createhitbox(852, 0, "K3")));
             case FOUR:
-                hitbox_hint.loadGraphic(Paths.image('android/4k_hint'));
+                hitbox_hint.loadGraphic(Paths.image('android/hitbox_hint'));
 
                 hitbox.add(add(K1 = createhitbox(0, 0, "K1")));
                 hitbox.add(add(K2 = createhitbox(320, 0, "K2")));
@@ -400,7 +400,7 @@ class FlxHitbox extends FlxSpriteGroup {
             case THREE:
                 Paths.getSparrowAtlas('android/3k');
             case FOUR:
-                Paths.getSparrowAtlas('android/4k');
+                Paths.getSparrowAtlas('android/hitbox');
             case FIVE:
                 Paths.getSparrowAtlas('android/5k');
             case SIX:
