@@ -260,6 +260,47 @@ class FlxHitbox extends FlxSpriteGroup {
                 hitbox.add(add(K14 = createhitbox(1040, "K14"))); 
                 hitbox.add(add(K15 = createhitbox(1120, "K15")));
                 hitbox.add(add(K16 = createhitbox(1200, "K16"))); 
+	    case SEVENTEEN:
+                hitbox_hint.loadGraphic(Paths.image('android/17k_hint'));
+                
+                hitbox.add(add(K1 = createhitbox(0, "K1"))); 
+                hitbox.add(add(K2 = createhitbox(75, "K2")));
+                hitbox.add(add(K3 = createhitbox(150, "K3"))); 
+                hitbox.add(add(K4 = createhitbox(225, "K4")));
+                hitbox.add(add(K5 = createhitbox(300, "K5"))); 
+                hitbox.add(add(K6 = createhitbox(375, "K6")));
+                hitbox.add(add(K7 = createhitbox(450, "K7")));
+                hitbox.add(add(K8 = createhitbox(525, "K8")));
+                hitbox.add(add(K9 = createhitbox(600, "K9")));
+                hitbox.add(add(K10 = createhitbox(675, "K10")));
+                hitbox.add(add(K11 = createhitbox(750, "K11"))); 
+                hitbox.add(add(K12 = createhitbox(825, "K12")));
+                hitbox.add(add(K13 = createhitbox(900, "K13")));
+                hitbox.add(add(K14 = createhitbox(975, "K14"))); 
+                hitbox.add(add(K15 = createhitbox(1050, "K15")));
+                hitbox.add(add(K16 = createhitbox(1125, "K16")));
+		hitbox.add(add(K17 = createhitbox(1200, "K17")));
+	    case EIGHTEEN:
+                hitbox_hint.loadGraphic(Paths.image('android/18k_hint'));
+                
+                hitbox.add(add(K1 = createhitbox(0, "K1"))); 
+                hitbox.add(add(K2 = createhitbox(71, "K2")));
+                hitbox.add(add(K3 = createhitbox(142, "K3"))); 
+                hitbox.add(add(K4 = createhitbox(213, "K4")));
+                hitbox.add(add(K5 = createhitbox(284, "K5"))); 
+                hitbox.add(add(K6 = createhitbox(355, "K6")));
+                hitbox.add(add(K7 = createhitbox(426, "K7")));
+                hitbox.add(add(K8 = createhitbox(497, "K8")));
+                hitbox.add(add(K9 = createhitbox(568, "K9")));
+                hitbox.add(add(K10 = createhitbox(639, "K10")));
+                hitbox.add(add(K11 = createhitbox(710, "K11"))); 
+                hitbox.add(add(K12 = createhitbox(781, "K12")));
+                hitbox.add(add(K13 = createhitbox(852, "K13")));
+                hitbox.add(add(K14 = createhitbox(923, "K14"))); 
+                hitbox.add(add(K15 = createhitbox(994, "K15")));
+                hitbox.add(add(K16 = createhitbox(1065, "K16")));
+		hitbox.add(add(K17 = createhitbox(1136, "K17")));
+		hitbox.add(add(K18 = createhitbox(1207, "K18")));
         }
 
         array = [K1, K2, K3, K4, K5, K6, K7, K8, K9, K10, K11, K12, K13, K14, K15, K16, K17, K18, K19, K20, K21];
@@ -315,6 +356,10 @@ class FlxHitbox extends FlxSpriteGroup {
 		Paths.getSparrowAtlas('android/15k');
 	    case SIXTEEN:
 		Paths.getSparrowAtlas('android/hitbox16k');
+	    case SEVENTEEN:
+		Paths.getSparrowAtlas('android/17k');
+	    case EIGHTEEN:
+		Paths.getSparrowAtlas('android/18k');
         }
     }
 
@@ -363,4 +408,6 @@ enum HitboxType {
     FOURTEEN;
     FIFTEEN;
     SIXTEEN;
+    SEVENTEEN;
+    EIGHTEEN;
 }
