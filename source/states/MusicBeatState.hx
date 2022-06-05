@@ -43,7 +43,7 @@ class MusicBeatState extends FlxUIState
 	
 	#if android
 	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
-		_virtualpad = new FlxVirtualPad(DPad, Action, 0.75, ClientPrefs.globalAntialiasing);
+		_virtualpad = new FlxVirtualPad(DPad, Action, 0.75);
 		add(_virtualpad);
 		controls.setVirtualPadUI(_virtualpad, DPad, Action);
 		trackedinputsUI = controls.trackedinputsUI;
@@ -59,10 +59,10 @@ class MusicBeatState extends FlxUIState
 	#end
 
 	#if android
-	public function addHitbox(mania:Int) {               
+	public function addHitbox(keyCount:Int) {               
 		var curhitbox:HitboxType = FOUR;
 
-		switch (mania){
+		switch (keyCount){
 			case 1:
 				curhitbox = ONE;
 			case 2:
