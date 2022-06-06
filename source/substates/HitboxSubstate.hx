@@ -10,3 +10,5 @@ import flixel.util.FlxColor;
 
 class HitboxSubstate extends MusicBeatSubstate
 {
+  if(PlayState.startedCountdown = true)
+    
