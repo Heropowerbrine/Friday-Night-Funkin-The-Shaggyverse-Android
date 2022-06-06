@@ -55,6 +55,13 @@ class MusicBeatState extends FlxUIState
 		controls.trackedinputsUI = [];
 	}
 	#end
+		
+	#if android
+	public function removeVirtualPad() {
+		controls.removeFlxInput(trackedinputsUI);
+		remove(_virtualpad);
+	}
+	#end
 	
 	#if android
 	public function addHitbox(ogPlayerKeyCount:Int) {               
