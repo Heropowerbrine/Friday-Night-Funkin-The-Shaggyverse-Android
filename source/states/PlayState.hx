@@ -1952,7 +1952,7 @@ class PlayState extends MusicBeatState
 	}
 
 	private var paused:Bool = false;
-	var startedCountdown:Bool = false;
+	public static var startedCountdown:Bool = false;
 	var canPause:Bool = true;
 
 	public var canFullscreen:Bool = true;
