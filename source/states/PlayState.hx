@@ -72,7 +72,6 @@ import substates.PauseSubState;
 import substates.GameOverSubstate;
 import game.Highscore;
 import openfl.utils.Assets as OpenFlAssets;
-import android.flixel.FlxHitbox;
 
 using StringTools;
 
@@ -362,7 +361,7 @@ class PlayState extends MusicBeatState
 		camHUD = new FlxCamera();
 
 		FlxG.cameras.reset(camGame);
-		FlxG.cameras.add(camHUD);
+		FlxG.cameras.add(camHUD, false);
 
 		FlxG.cameras.setDefaultDrawTarget(camGame, true);
 
@@ -957,10 +956,6 @@ class PlayState extends MusicBeatState
 
 			if(utilities.Options.getData("sideRatings") == true)
 				ratingText.cameras = [camHUD];
-					
-			#if android		
-			addHitbox(ogPlayerKeyCount);
-			#end
 
 			startingSong = true;
 
