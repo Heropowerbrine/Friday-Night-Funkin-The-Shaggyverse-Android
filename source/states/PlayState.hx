@@ -270,7 +270,7 @@ class PlayState extends MusicBeatState
 
 	var funnyTimeBarStyle:String;
 
-	public var ogPlayerKeyCount:Int = 4;
+	public static var ogPlayerKeyCount:Int = 4;
 	public var ogKeyCount:Int = 4;
 
 	#if linc_luajit
