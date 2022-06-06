@@ -11,4 +11,6 @@ import flixel.util.FlxColor;
 class HitboxSubstate extends MusicBeatSubstate
 {
   if(PlayState.startedCountdown = true)
-    
+    addHitbox(PlayState.ogPlayerKeyCount);
+    _hitbox.visible = true;
+}
