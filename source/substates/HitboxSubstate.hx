@@ -6,5 +6,7 @@ import states.MusicBeatState;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxCamera;
+import flixel.util.FlxColor;
 
 class HitboxSubstate extends MusicBeatSubstate
+{
