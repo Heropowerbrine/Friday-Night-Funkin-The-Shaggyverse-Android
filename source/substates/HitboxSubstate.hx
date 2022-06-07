@@ -11,12 +11,14 @@ import flixel.util.FlxColor;
 
 class HitboxSubstate extends MusicBeatSubstate
 { 
-  
-  override public function create()
+   public function new
   {
-   var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
-   var _hitbox = FlxHitbox;
-   public function addHitbox(ogPlayerKeyCount:Int) {               
+       var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
+       var _hitbox = FlxHitbox;
+       super();
+  }
+
+  public function addHitbox(ogPlayerKeyCount:Int) {               
 		var curhitbox:HitboxType = FOUR;
 
 		switch (ogPlayerKeyCount){
@@ -75,11 +77,13 @@ class HitboxSubstate extends MusicBeatSubstate
 
 		_hitbox.visible = false;
 		add(_hitbox);
-	}
-    
+   }  
+
+   override function update(elapsed:Float)
+  {
    if(PlayState.startedCountdown = true)
      addHitbox(ogPlayerKeyCount);
      _hitbox.visible = true;
-   super.create();
+   super.update(elapsed);
   }
 }
