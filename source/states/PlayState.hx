@@ -23,6 +23,7 @@ import flixel.graphics.FlxGraphic;
 import flixel.system.FlxAssets.FlxShader;
 import flixel.addons.display.FlxShaderMaskCamera;
 import substates.ResultsScreenSubstate;
+import substates.HitboxSubstate;
 import haxe.Json;
 import game.Replay;
 import lime.utils.Assets;
