@@ -960,6 +960,8 @@ class PlayState extends MusicBeatState
 
 			startingSong = true;
 
+			openSubState(new HitboxSubstate());
+					
 			var cutscenePlays = utilities.Options.getData("cutscenePlaysOn");
 
 			playCutsceneLmao = (!playingReplay && ((isStoryMode && cutscenePlays == "story") || (!isStoryMode && cutscenePlays == "freeplay") || (cutscenePlays == "both")) && !fromPauseMenu);
