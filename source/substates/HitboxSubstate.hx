@@ -15,7 +15,7 @@ class HitboxSubstate extends MusicBeatSubstate
 { 
     var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
     var _hitbox = FlxHitbox;
-    addHitbox = MusicBeatState.addHitbox
+    var addHitbox = MusicBeatState.addHitbox
    
     public function new()
    {
