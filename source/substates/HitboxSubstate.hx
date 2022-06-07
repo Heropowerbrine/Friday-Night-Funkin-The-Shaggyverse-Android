@@ -12,8 +12,9 @@ class HitboxSubstate extends MusicBeatSubstate && MusicBeatState
 { 
   public function new
  {
-  if(PlayState.startedCountdown = true)
-    addHitbox(ogPlayerKeyCount);
-    _hitbox.visible = true;
+   var ogPlayerKeyCount = PlayState.ogPlayerKeyCount
+   if(PlayState.startedCountdown = true)
+     addHitbox(ogPlayerKeyCount);
+     _hitbox.visible = true;
  }
 }
