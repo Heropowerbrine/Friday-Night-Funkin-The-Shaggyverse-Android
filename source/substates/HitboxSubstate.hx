@@ -11,8 +11,7 @@ import flixel.util.FlxColor;
 
 class HitboxSubstate extends MusicBeatSubstate
 { 
-  public function new
-  {
+  public function new {
     super();
   }
   
