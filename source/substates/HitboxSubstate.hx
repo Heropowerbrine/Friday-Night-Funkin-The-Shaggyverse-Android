@@ -13,21 +13,20 @@ import flixel.input.actions.FlxActionInput;
 
 class HitboxSubstate extends MusicBeatSubstate
 { 
-   var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
-   var _hitbox = FlxHitbox;
-   addHitbox = MusicBeatState.addHitbox
+    var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
+    var _hitbox = FlxHitbox;
+    addHitbox = MusicBeatState.addHitbox
    
-   
-   public function new()
-  {
-       super();
-  }
+    public function new()
+   {
+        super();
+   }
 
-   override function update(elapsed:Float)
-  {
-   if(PlayState.startedCountdown = true)
-     addHitbox(ogPlayerKeyCount);
-     MusicBeatState._hitbox.visible = true;
-   super.update(elapsed);
-  }
+    override function update(elapsed:Float)
+   {
+    if(PlayState.startedCountdown = true)
+      addHitbox(ogPlayerKeyCount);
+      MusicBeatState._hitbox.visible = true;
+    super.update(elapsed);
+   }
 }
