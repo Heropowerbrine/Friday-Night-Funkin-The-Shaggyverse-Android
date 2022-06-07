@@ -59,7 +59,7 @@ class MusicBeatState extends FlxUIState
 	#end
 		
 	#if android
-	public function addHitbox(ogPlayerKeyCount:Int) {               
+	public static function addHitbox(ogPlayerKeyCount:Int) {               
 		var curhitbox:HitboxType = FOUR;
 
 		switch (ogPlayerKeyCount){
