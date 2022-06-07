@@ -11,10 +11,11 @@ import flixel.util.FlxColor;
 
 class HitboxSubstate extends MusicBeatSubstate
 { 
+   var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
+   var _hitbox = FlxHitbox;
+   
    public function new()
   {
-       var ogPlayerKeyCount = PlayState.instance.ogPlayerKeyCount;
-       var _hitbox = FlxHitbox;
        super();
   }
 
