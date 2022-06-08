@@ -1,4 +1,4 @@
-package substates;
+/*package substates;
 
 import android.flixel.FlxHitbox;
 import states.PlayState;
@@ -30,3 +30,4 @@ class HitboxSubstate extends MusicBeatSubstate
     super.update(elapsed);
    }
 }
+*/
