@@ -82,7 +82,20 @@ class DialogueBox extends FlxSpriteGroup
 		if(dialogue_Shadow != null)
 			dialogue_Shadow.text = dialogue.text;
 
-		if(FlxG.keys.justPressed.ENTER)
+		#if android
+		var justTouched:Bool = false;
+
+		for (touch in FlxG.touches.list)
+		{
+			justTouched = false;
+
+			if (touch.justReleased){
+				justTouched = true;
+			}
+		}
+		#end
+
+		if (FlxG.keys.justPressed.ANY #if android || justTouched #end)
 		{
 			FlxG.sound.play(Paths.sound('clickText'), 0.8);
 
