@@ -2613,7 +2613,7 @@ class PlayState extends MusicBeatState
 
 		currentBeat = curBeat;
 
-		if(FlxG.android.justReleased.BACK) && startedCountdown && canPause && !switchedStates)
+		if((FlxG.android.justReleased.BACK) && startedCountdown && canPause && !switchedStates)
 		{
 			persistentUpdate = false;
 			persistentDraw = true;
