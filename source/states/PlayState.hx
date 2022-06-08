@@ -2615,7 +2615,7 @@ class PlayState extends MusicBeatState
 
 		currentBeat = curBeat;
 
-		if(FlxG.keys.checkStatus(FlxKey.fromString(utilities.Options.getData("pauseBind", "binds")), FlxInputState.JUST_PRESSED) && startedCountdown && canPause && !switchedStates)
+		if(FlxG.keys.checkStatus(FlxKey.fromString(utilities.Options.getData("pauseBind", "binds")), FlxInputState.JUST_PRESSED #if android || FlxG.android.justReleased.BACK #end ) && startedCountdown && canPause && !switchedStates)
 		{
 			persistentUpdate = false;
 			persistentDraw = true;
