@@ -137,6 +137,10 @@ class CharacterSelectState extends MusicBeatState
 		tutorialThing.setGraphicSize(Std.int(tutorialThing.width * 1.5));
 		tutorialThing.antialiasing = true;
 		add(tutorialThing);
+		
+		#if android
+	        addVirtualPad(FULL, A_B);
+                #end
 	}
 
 	override public function update(elapsed:Float):Void 
