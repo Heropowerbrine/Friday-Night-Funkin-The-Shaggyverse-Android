@@ -959,8 +959,6 @@ class PlayState extends MusicBeatState
 				ratingText.cameras = [camHUD];
 
 			startingSong = true;
-
-			openSubState(new HitboxSubstate());
 					
 			var cutscenePlays = utilities.Options.getData("cutscenePlaysOn");
 
