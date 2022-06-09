@@ -3,7 +3,7 @@
 name: Android Build
 
 # Controls when the action will run. 
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 jobs:
   buildAndroid:
     # The type of runner that the job will run on
@@ -35,7 +35,7 @@ jobs:
         
       - uses: nttld/setup-ndk@v1
         with:
-          ndk-version: r15c
+          ndk-version: r23c
 
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
