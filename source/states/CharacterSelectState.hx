@@ -155,11 +155,11 @@ class CharacterSelectState extends MusicBeatState
 		}
 
 
-		if(controls.UP_P && !PressedTheFunny)
+		if(FlxG.keys.justPressed.UP && !PressedTheFunny)
 		{
 			char.playAnim('singUP', true);
 		}
-		if(controls.DOWN_P && !PressedTheFunny)
+		if(FlxG.keys.justPressed.DOWN && !PressedTheFunny)
 		{
 			char.playAnim('singDOWN', true);
 		}
@@ -180,7 +180,7 @@ class CharacterSelectState extends MusicBeatState
 			LoadingState.loadAndSwitchState(new PlayState());
 
 		}
-		if (FlxG.keys.justPressed.LEFT && !selectedCharacter)
+		if (controls.LEFT_P && !selectedCharacter)
 		{
 			curForm = 0;
 			current--;
@@ -192,7 +192,7 @@ class CharacterSelectState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 		}
 
-		if (FlxG.keys.justPressed.RIGHT && !selectedCharacter)
+		if (controls.RIGHT_P && !selectedCharacter)
 		{
 			curForm = 0;
 			current++;
@@ -203,7 +203,7 @@ class CharacterSelectState extends MusicBeatState
 			UpdateBF();
 			FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 		}
-		if (FlxG.keys.justPressed.DOWN && !selectedCharacter)
+		if (controls.DOWN_P && !selectedCharacter)
 		{
 			curForm--;
 			if (curForm < 0)
@@ -214,7 +214,7 @@ class CharacterSelectState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 		}
 
-		if (FlxG.keys.justPressed.UP && !selectedCharacter)
+		if (controls.UP_P && !selectedCharacter)
 		{
 			curForm++;
 			if (curForm > characters[current].names.length - 1)
