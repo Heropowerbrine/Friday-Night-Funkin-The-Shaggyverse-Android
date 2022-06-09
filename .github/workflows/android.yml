@@ -35,7 +35,7 @@ jobs:
         
       - uses: nttld/setup-ndk@v1
         with:
-          ndk-version: r23c
+          ndk-version: r15c
 
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
@@ -69,7 +69,7 @@ jobs:
           haxelib run lime build android --app-version="4.0.0-${{ github.run_id}}"
           
       - name: Publish Artifact
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v3.0.0
         with:
           name: androidBuild
           path: export/release/android/bin/app/build/outputs/apk/debug
