@@ -140,6 +140,7 @@ class CharacterSelectState extends MusicBeatState
 		
 		#if android
 	        addVirtualPad(FULL, A_B);
+		addPadCamera();
                 #end
 	}
 
