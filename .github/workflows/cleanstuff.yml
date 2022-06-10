@@ -1,7 +1,7 @@
 name: Build with Clean
 
 on:
-  push:
+  workflow-dispatch:
     branches-ignore:
       - master
 jobs:
