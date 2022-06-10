@@ -173,7 +173,7 @@ class ModchartUtilities
         Lua.init_callbacks(lua);
 
         if(path == null)
-            path = PolymodAssets.getPath(Paths.lua("modcharts/" + PlayState.SONG.modchartPath));
+            path = Paths.lua("modcharts/" + PlayState.SONG.modchartPath);
 
         var result = LuaL.dofile(lua, SUtil.getPath() + path); // execute le file
 
