@@ -6,7 +6,7 @@ name: Android Build
 on: [workflow_dispatch, push]
 jobs:
   cleaner:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Runner workspace path
         run: |
