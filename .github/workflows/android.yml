@@ -3,7 +3,7 @@
 name: Android Build
 
 # Controls when the action will run. 
-on: [workflow_dispatch, push]
+on: [workflow_dispatch]
 jobs:
   cleaner:
     runs-on: ubuntu-latest
