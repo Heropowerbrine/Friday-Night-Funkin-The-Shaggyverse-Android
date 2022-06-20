@@ -13,7 +13,7 @@ import vlc.VlcBitmap;
 import flixel.FlxBasic;
 import flixel.FlxG;
 import extension.videoview.VideoView;
-import android.AndroidTools;
+import android.Tools;
 
 class FlxVideo extends FlxBasic {
 	#if VIDEOS_ALLOWED
