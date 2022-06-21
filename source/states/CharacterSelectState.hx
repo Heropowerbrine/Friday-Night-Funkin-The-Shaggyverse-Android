@@ -76,8 +76,6 @@ class CharacterSelectState extends MusicBeatState
 	
 	override public function create():Void 
 	{	
-	        addVirtualPad(FULL, A_B);
-		
 		super.create();
 		Conductor.changeBPM(110);
 
@@ -140,6 +138,7 @@ class CharacterSelectState extends MusicBeatState
 		tutorialThing.antialiasing = true;
 		add(tutorialThing);
 		
+		addVirtualPad(FULL, A_B);
 		addPadCamera();
 	}
 
