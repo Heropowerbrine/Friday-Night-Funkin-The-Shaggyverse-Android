@@ -190,6 +190,11 @@ class OptionsMenu extends MusicBeatState
 		menuBG.screenCenter();
 		menuBG.antialiasing = true;
 		add(menuBG);
+		
+		 #if android
+	         addVirtualPad(FULL, A_B);
+		 addPadCamera();
+                 #end
 
 		super.create();
 
