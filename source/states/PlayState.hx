@@ -1390,6 +1390,7 @@ class PlayState extends MusicBeatState
 		inCutscene = false;
 		paused = false;
 		canPause = true;
+		_hitbox.visible = true;
 
 		if(utilities.Options.getData("middlescroll"))
 		{
