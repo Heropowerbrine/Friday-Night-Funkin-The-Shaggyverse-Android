@@ -109,6 +109,8 @@ class PauseSubState extends MusicBeatSubstate
 		updateAlphabets();
 
 		cameras = [PlayState.instance.camHUD];
+		
+		addVirtualPad(UP_DOWN, A);
 	}
 
 	var justPressedAcceptLol:Bool = true;
