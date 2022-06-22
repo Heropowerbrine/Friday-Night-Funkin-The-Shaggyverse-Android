@@ -78,6 +78,13 @@ class CharacterSelectState extends MusicBeatState
 	{	
 		super.create();
 		Conductor.changeBPM(110);
+		
+		camGame = new FlxCamera();
+		camHUD = new FlxCamera();
+		camHUD.bgColor.alpha = 0;
+		FlxG.cameras.reset(camGame);
+		FlxG.cameras.add(camHUD);
+		FlxCamera.defaultCameras = [camGame];
 
 		currentSelectedCharacter = characters[current];
 
@@ -112,6 +119,7 @@ class CharacterSelectState extends MusicBeatState
 		add(stageCurtains);
 
 		FlxG.camera.zoom = 0.75;
+		camHUD.zoom = 0.75;
 
 		//create character
 		char = new Boyfriend(FlxG.width / 2, FlxG.height / 2, "bf");
@@ -126,16 +134,19 @@ class CharacterSelectState extends MusicBeatState
 		characterText.fieldWidth = 1080;
 		characterText.borderSize = 7;
 		characterText.screenCenter(X);
+		characterText.cameras = [camHUD];
 		add(characterText);
 
 		funnyIconMan = new HealthIcon('bf', true);
 		funnyIconMan.sprTracker = characterText;
+		funnyIconMan.cameras = [camHUD];
 		funnyIconMan.visible = false;
 		add(funnyIconMan);
 
 		var tutorialThing:FlxSprite = new FlxSprite(-100, -100).loadGraphic(Paths.image('charSelectGuide'));
 		tutorialThing.setGraphicSize(Std.int(tutorialThing.width * 1.5));
 		tutorialThing.antialiasing = true;
+		tutorialThing.cameras = [camHUD];
 		add(tutorialThing);
 		
 		addVirtualPad(FULL, A_B);
