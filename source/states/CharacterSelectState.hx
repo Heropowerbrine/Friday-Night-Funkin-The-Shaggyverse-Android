@@ -54,6 +54,9 @@ class CharacterSelectState extends MusicBeatState
 	public var PressedTheFunny:Bool = false;
 
 	var selectedCharacter:Bool = false;
+	
+	private var camHUD:FlxCamera;
+	private var camGame:FlxCamera;
 
 	var currentSelectedCharacter:CharacterInSelect;
 
