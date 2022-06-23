@@ -119,7 +119,7 @@ class StoryMenuState extends MusicBeatState
 				if(FlxG.keys.justPressed.Q #if android || _virtualpad.buttonX.justPressed #end)
 					changeGroup(-1);
 
-				if(controls.RESET)
+				if(controls.RESET #if android || _virtualpad.buttonZ.justPressed #end)
 				{
 					openSubState(new ResetScoreSubstate("nonelolthisisweekslmao", curDifficulties[curDifficulty][0], curWeek, currentGroup.pathName + "Week", true));
 					changeWeek();
