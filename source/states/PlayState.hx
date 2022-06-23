@@ -1097,15 +1097,15 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+	        #if android		
+		addHitbox(ogPlayerKeyCount);
+		#end
+		
 		super.create();
 
 		executeALuaState("createPost", []);
 
 		calculateAccuracy();
-	
-	        #if android		
-		addHitbox(ogPlayerKeyCount);
-		#end
 	}
 
 	public static var playCutsceneLmao:Bool = false;
