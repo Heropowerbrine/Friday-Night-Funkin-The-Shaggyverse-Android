@@ -161,7 +161,7 @@ class CharacterSelectState extends MusicBeatState
 		super.update(elapsed);
 		//FlxG.camera.focusOn(FlxG.ce);
 
-		if (FlxG.keys.justPressed.ESCAPE)
+		if (controls.BACK)
 		{
 			LoadingState.loadAndSwitchState(new MainMenuState());
 		}
