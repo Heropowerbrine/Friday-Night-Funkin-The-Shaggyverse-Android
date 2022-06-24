@@ -958,6 +958,10 @@ class PlayState extends MusicBeatState
 			if(utilities.Options.getData("sideRatings") == true)
 				ratingText.cameras = [camHUD];
 
+                        #if android		
+		        addHitbox(ogPlayerKeyCount);
+		        #end
+
 			startingSong = true;
 					
 			var cutscenePlays = utilities.Options.getData("cutscenePlaysOn");
@@ -1096,10 +1100,6 @@ class PlayState extends MusicBeatState
 				#end
 			}
 		}
-
-	        #if android		
-		addHitbox(ogPlayerKeyCount);
-		#end
 		
 		super.create();
 
