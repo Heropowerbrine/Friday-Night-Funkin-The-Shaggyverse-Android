@@ -243,6 +243,8 @@ class GameStateOption extends Option
 	// variables //
 	public var Alphabet_Text:Alphabet;
 	public var Mod_Icon:ModIcon;
+	
+	var _virtualpad:FlxVirtualPad;
 
 	public var Mod_Enabled:Bool = false;
 
