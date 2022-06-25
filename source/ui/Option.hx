@@ -41,6 +41,7 @@ class Option extends FlxTypedGroup<FlxSprite>
 {
 	// variables //
 	public var Alphabet_Text:Alphabet;
+	var _virtualpad:FlxVirtualPad;
 
 	// options //
 	public var Option_Row:Int = 0;
@@ -95,7 +96,7 @@ class BoolOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
             ChangeValue();
     }
 
@@ -145,7 +146,7 @@ class PageOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
+        if(_virtualpad.buttonA.justPressed && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
             OptionsMenu.LoadPage(Page_Name);
     }
 }
@@ -164,7 +165,7 @@ class ControlMenuSubStateOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new ControlMenuSubstate());
     }
 }
@@ -183,7 +184,7 @@ class UISkinSelectOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new UISkinSelect());
     }
 }
@@ -202,7 +203,7 @@ class SongOffsetOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new SongOffsetMenu());
     }
 }
@@ -227,7 +228,7 @@ class GameStateOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.switchState(Game_State);
     }
 }
@@ -276,7 +277,7 @@ class GameStateOption extends Option
 	{
 		super.update(elapsed);
 
-		if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+		if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 		{
 			Mod_Enabled = !Mod_Enabled;
 			ModList.setModEnabled(Option_Value, Mod_Enabled);
@@ -305,7 +306,7 @@ class MaxFPSOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new MaxFPSMenu());
     }
 }
@@ -319,7 +320,7 @@ class JudgementMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new JudgementMenu());
     }
 }
@@ -333,7 +334,7 @@ class NoteBGAlphaMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new NoteBGAlphaMenu());
     }
 }
@@ -347,7 +348,7 @@ class NoteColorMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new NoteColorSubstate());
     }
 }
@@ -361,7 +362,7 @@ class ScrollSpeedMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new ScrollSpeedMenu());
     }
 }
@@ -375,7 +376,7 @@ class ImportOldHighscoreOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Alphabet_Text.targetY == 0)
+        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new ImportHighscoresSubstate());
     }
 }
@@ -417,7 +418,7 @@ class StringSaveOption extends Option
     {
         super.update(elapsed);
 
-        if(Control.ACCEPT && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
+        if(_virtualpad.buttonA.justPressed && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
         {
 			var prevIndex = Modes.indexOf(Current_Mode);
 
