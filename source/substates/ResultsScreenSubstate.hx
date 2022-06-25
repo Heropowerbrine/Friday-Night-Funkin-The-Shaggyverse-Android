@@ -53,12 +53,14 @@ class ResultsScreenSubstate extends MusicBeatSubstate
         add(graph);
 
         cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
+	    
+	addVirtualPad(NONE, A);
     }
 
     override function update(elapsed:Float) {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER)
+        if(controls.ACCEPT)
         {
             PlayState.instance.finishSongStuffs();
             FlxG.state.closeSubState();
