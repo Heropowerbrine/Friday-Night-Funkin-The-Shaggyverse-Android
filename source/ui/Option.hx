@@ -22,6 +22,8 @@ import states.OptionsMenu;
 import flixel.FlxG;
 import flixel.group.FlxGroup;
 import utilities.Controls;
+import substates.MusicBeatSubstate;
+import states.MusicBeatState;
 
 /**
  * The base option class that all options inherit from.
