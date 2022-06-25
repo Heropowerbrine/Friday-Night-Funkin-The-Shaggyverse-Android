@@ -33,6 +33,7 @@ import flixel.input.actions.FlxActionSet;
 import flixel.input.gamepad.FlxGamepadButton;
 import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.keyboard.FlxKey;
+import android.flixel.FlxVirtualPad;
 
 /**
  * The base option class that all options inherit from.
