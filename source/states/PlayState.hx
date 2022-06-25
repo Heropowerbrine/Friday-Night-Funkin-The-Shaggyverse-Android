@@ -3282,6 +3282,10 @@ class PlayState extends MusicBeatState
                 {
 			return true;
 		}
+		else if (_hitbox.array[ogKeyCount].pressed) 
+                {
+			return true;
+		}
 		return false;
 	}
 
@@ -3758,6 +3762,15 @@ class PlayState extends MusicBeatState
 				}
 			}
 		}
+		
+		#if android
+		        for (i in 0..._hitbox.array.length) {
+			        if (_hitbox.array[i].justReleased)
+			        {
+				       onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[mania][i][0]));
+			        }
+		        }
+		        #end
 	}
 
 	function noteMiss(direction:Int = 1, ?note:Note):Void
