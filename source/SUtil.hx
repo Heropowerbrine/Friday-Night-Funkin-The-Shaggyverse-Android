@@ -128,7 +128,7 @@ class SUtil
 
 	private static function openLinkAndClose()
 	{
-		CoolUtil.browserLoad('https://youtu.be/zjvkTmdWvfU');
+		CoolUtil.openURL('https://youtu.be/zjvkTmdWvfU');
 		Sys.exit(1);
 	}
 
