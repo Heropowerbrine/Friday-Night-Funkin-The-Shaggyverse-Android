@@ -3229,6 +3229,26 @@ class PlayState extends MusicBeatState
 	var justReleasedArray:Array<Bool> = [];
 	var heldArray:Array<Bool> = [];
 	var previousReleased:Array<Bool> = [];
+			
+	#if android
+	private function hitboxKeysArePressed():Bool
+	{
+	        if (_hitbox.array[ogPlayerKeyCount].pressed) 
+                {
+			return true;
+		}
+		return false;
+	}
+
+	private function hitboxDataKeyIsPressed(data:Int):Bool
+	{
+		if (_hitbox.array[data].pressed) 
+                {
+                        return true;
+                }
+		return false;
+	}
+        #end
 
 	private function keyShit()
 	{
