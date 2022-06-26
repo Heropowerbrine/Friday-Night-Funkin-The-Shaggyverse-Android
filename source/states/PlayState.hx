@@ -3316,7 +3316,6 @@ class PlayState extends MusicBeatState
 	
 					releasedArray = [];
 					heldArray = [];
-					#if android
 	                                for (i in 0..._hitbox.array.length) 
 					{
 						justPressedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(binds[i]), FlxInputState.JUST_PRESSED);
@@ -3332,8 +3331,6 @@ class PlayState extends MusicBeatState
 							heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(bruhBinds[i]), FlxInputState.PRESSED);
 						}
 					}
-					#end
-					else
 					for(i in 0...binds.length)
 					{
 						justPressedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(binds[i]), FlxInputState.JUST_PRESSED);
