@@ -3432,7 +3432,7 @@ class PlayState extends MusicBeatState
 						}
 					}
 				}
-                               for (i in 0..._hitbox.array.length) {
+                                for (i in 0..._hitbox.array.length) {
 					if (_hitbox.array[i].justPressed){
 					        executeALuaState("keyPressed", [i]);
 				};
