@@ -3433,12 +3433,12 @@ class PlayState extends MusicBeatState
 					}
 				}
                                 for (i in 0..._hitbox.array.length) {
-					if (_hitbox.array[i].justPressed){
+					if (_hitbox.array[i].justPressed)
 					        executeALuaState("keyPressed", [i]);
 				};
 				       
 				for (i in 0..._hitbox.array.length) {
-					if (_hitbox.array[i].justReleased){
+					if (_hitbox.array[i].justReleased)
 					        executeALuaState("keyReleased", [i]);
 				}; 
 					
