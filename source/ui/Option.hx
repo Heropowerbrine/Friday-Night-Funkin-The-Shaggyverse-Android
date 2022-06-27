@@ -21,19 +21,6 @@ import flixel.FlxState;
 import states.OptionsMenu;
 import flixel.FlxG;
 import flixel.group.FlxGroup;
-import utilities.Controls;
-import substates.MusicBeatSubstate;
-import states.MusicBeatState;
-import flixel.input.FlxInput;
-import flixel.input.actions.FlxAction;
-import flixel.input.actions.FlxActionInput;
-import flixel.input.actions.FlxActionInputDigital;
-import flixel.input.actions.FlxActionManager;
-import flixel.input.actions.FlxActionSet;
-import flixel.input.gamepad.FlxGamepadButton;
-import flixel.input.gamepad.FlxGamepadInputID;
-import flixel.input.keyboard.FlxKey;
-import android.flixel.FlxVirtualPad;
 
 /**
  * The base option class that all options inherit from.
@@ -42,7 +29,6 @@ class Option extends FlxTypedGroup<FlxSprite>
 {
 	// variables //
 	public var Alphabet_Text:Alphabet;
-	var _virtualpad:FlxVirtualPad;
 
 	// options //
 	public var Option_Row:Int = 0;
@@ -97,7 +83,7 @@ class BoolOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
             ChangeValue();
     }
 
@@ -147,7 +133,7 @@ class PageOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
+        if(FlxG.keys.justPressed.ENTER && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
             OptionsMenu.LoadPage(Page_Name);
     }
 }
@@ -166,7 +152,7 @@ class ControlMenuSubStateOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new ControlMenuSubstate());
     }
 }
@@ -185,7 +171,7 @@ class UISkinSelectOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new UISkinSelect());
     }
 }
@@ -204,7 +190,7 @@ class SongOffsetOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new SongOffsetMenu());
     }
 }
@@ -229,7 +215,7 @@ class GameStateOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.switchState(Game_State);
     }
 }
@@ -243,8 +229,6 @@ class GameStateOption extends Option
 	// variables //
 	public var Alphabet_Text:Alphabet;
 	public var Mod_Icon:ModIcon;
-	
-	var _virtualpad:FlxVirtualPad;
 
 	public var Mod_Enabled:Bool = false;
 
@@ -280,7 +264,7 @@ class GameStateOption extends Option
 	{
 		super.update(elapsed);
 
-		if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+		if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 		{
 			Mod_Enabled = !Mod_Enabled;
 			ModList.setModEnabled(Option_Value, Mod_Enabled);
@@ -309,7 +293,7 @@ class MaxFPSOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new MaxFPSMenu());
     }
 }
@@ -323,7 +307,7 @@ class JudgementMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new JudgementMenu());
     }
 }
@@ -337,7 +321,7 @@ class NoteBGAlphaMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new NoteBGAlphaMenu());
     }
 }
@@ -351,7 +335,7 @@ class NoteColorMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new NoteColorSubstate());
     }
 }
@@ -365,7 +349,7 @@ class ScrollSpeedMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new ScrollSpeedMenu());
     }
 }
@@ -379,7 +363,7 @@ class ImportOldHighscoreOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
 			FlxG.state.openSubState(new ImportHighscoresSubstate());
     }
 }
@@ -421,7 +405,7 @@ class StringSaveOption extends Option
     {
         super.update(elapsed);
 
-        if(_virtualpad.buttonA.justPressed && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
+        if(FlxG.keys.justPressed.ENTER && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
         {
 			var prevIndex = Modes.indexOf(Current_Mode);
 
