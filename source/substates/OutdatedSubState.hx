@@ -17,6 +17,9 @@ class OutdatedSubState extends MusicBeatState
 
 	override function create()
 	{
+		#if android
+	        addVirtualPad(NONE, A_B);
+                #end
 		super.create();
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
