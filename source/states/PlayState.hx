@@ -3332,15 +3332,15 @@ class PlayState extends MusicBeatState
 							heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(bruhBinds[i]), FlxInputState.PRESSED);
 						}
 					}
-                                        for (i in 0..._hitbox.array.length) {
-						if (_hitbox.array[i].justPressed){
-							replay.recordInput(i, "pressed");
-					        }
-					};
 					for (i in 0...justPressedArray.length) {
 						if (justPressedArray[i] == true) {
 							replay.recordInput(i, "pressed");
 						}
+					};
+					for (i in 0..._hitbox.array.length) {
+						if (_hitbox.array[i].justPressed){
+							replay.recordInput(i, "pressed");
+					        }
 					};
 				}
 				else
@@ -3431,17 +3431,7 @@ class PlayState extends MusicBeatState
 							}
 						}
 					}
-				}
-                                for (i in 0..._hitbox.array.length) {
-					if (_hitbox.array[i].justPressed)
-					        executeALuaState("keyPressed", [i]);
-				};
-				       
-				for (i in 0..._hitbox.array.length) {
-					if (_hitbox.array[i].justReleased)
-					        executeALuaState("keyReleased", [i]);
-				}; 
-					
+				}	
 				for (i in 0...justPressedArray.length) {
 					if (justPressedArray[i] == true)
 						executeALuaState("keyPressed", [i]);
@@ -3451,6 +3441,16 @@ class PlayState extends MusicBeatState
 					if (releasedArray[i] == true)
 						executeALuaState("keyReleased", [i]);
 				};
+				
+				for (i in 0..._hitbox.array.length) {
+					if (_hitbox.array[i].justPressed)
+					        executeALuaState("keyPressed", [i]);
+				};
+				       
+				for (i in 0..._hitbox.array.length) {
+					if (_hitbox.array[i].justReleased)
+					        executeALuaState("keyReleased", [i]);
+				}; 
 				
 				if(justPressedArray.contains(true) && generatedMusic && !playingReplay)
 				{
