@@ -3334,28 +3334,23 @@ class PlayState extends MusicBeatState
 					}
 					for(i in 0..._hitbox.array.length)
 					{
-						justPressedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justPressed, FlxInputState.JUST_PRESSED);
-						releasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].released, FlxInputState.RELEASED);
-						justReleasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justReleased, FlxInputState.JUST_RELEASED);
-						heldArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].pressed, FlxInputState.PRESSED);
+						justPressedArray[i] = _hitbox.array[i].justPressed;
+						releasedArray[i] = _hitbox.array[i].released;
+						justReleasedArray[i] = _hitbox.array[i].justReleased;
+						heldArray[i] = _hitbox.array[i].pressed;
 		
 						if(releasedArray[i] == true && SONG.playerKeyCount == 4)
 						{
-							justPressedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justPressed, FlxInputState.JUST_PRESSED);
-							releasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].released, FlxInputState.RELEASED);
-							justReleasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justReleased, FlxInputState.JUST_RELEASED);
-							heldArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].pressed, FlxInputState.PRESSED);
+							justPressedArray[i] = _hitbox.array[i].justPressed);
+							releasedArray[i] = _hitbox.array[i].released;
+							justReleasedArray[i] = _hitbox.array[i].justReleased;
+							heldArray[i] = _hitbox.array[i].pressed;
 						}
 					}
 					for (i in 0...justPressedArray.length) {
 						if (justPressedArray[i] == true) {
 							replay.recordInput(i, "pressed");
 						}
-					};
-					for (i in 0..._hitbox.array.length) {
-						if (_hitbox.array[i].justPressed){
-							replay.recordInput(i, "pressed");
-					        }
 					};
 				}
 				else
@@ -3455,16 +3450,6 @@ class PlayState extends MusicBeatState
 				for (i in 0...releasedArray.length) {
 					if (releasedArray[i] == true)
 						executeALuaState("keyReleased", [i]);
-				};
-				
-				for (i in 0..._hitbox.array.length) {
-					if (_hitbox.array[i].justPressed)
-					        executeALuaState("keyPressed", [i]);
-				};
-				       
-				for (i in 0..._hitbox.array.length) {
-					if (_hitbox.array[i].justReleased)
-					        executeALuaState("keyReleased", [i]);
 				}; 
 				
 				if(justPressedArray.contains(true) && generatedMusic && !playingReplay)
