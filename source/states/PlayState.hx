@@ -3332,6 +3332,21 @@ class PlayState extends MusicBeatState
 							heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(bruhBinds[i]), FlxInputState.PRESSED);
 						}
 					}
+					for(i in 0..._hitbox.array.length)
+					{
+						justPressedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_PRESSED);
+						releasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.RELEASED);
+						justReleasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_RELEASED);
+						heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.PRESSED);
+		
+						if(releasedArray[i] == true && SONG.playerKeyCount == 4)
+						{
+							justPressedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_PRESSED);
+							releasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.RELEASED);
+							justReleasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_RELEASED);
+							heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.PRESSED);
+						}
+					}
 					for (i in 0...justPressedArray.length) {
 						if (justPressedArray[i] == true) {
 							replay.recordInput(i, "pressed");
