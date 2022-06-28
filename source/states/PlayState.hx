@@ -3341,7 +3341,7 @@ class PlayState extends MusicBeatState
 		
 						if(releasedArray[i] == true && SONG.playerKeyCount == 4)
 						{
-							justPressedArray[i] = _hitbox.array[i].justPressed);
+							justPressedArray[i] = _hitbox.array[i].justPressed;
 							releasedArray[i] = _hitbox.array[i].released;
 							justReleasedArray[i] = _hitbox.array[i].justReleased;
 							heldArray[i] = _hitbox.array[i].pressed;
