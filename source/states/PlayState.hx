@@ -3334,17 +3334,17 @@ class PlayState extends MusicBeatState
 					}
 					for(i in 0..._hitbox.array.length)
 					{
-						justPressedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_PRESSED);
-						releasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.RELEASED);
-						justReleasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_RELEASED);
-						heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.PRESSED);
+						justPressedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justPressed, FlxInputState.JUST_PRESSED);
+						releasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].released, FlxInputState.RELEASED);
+						justReleasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justReleased, FlxInputState.JUST_RELEASED);
+						heldArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].pressed, FlxInputState.PRESSED);
 		
 						if(releasedArray[i] == true && SONG.playerKeyCount == 4)
 						{
-							justPressedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_PRESSED);
-							releasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.RELEASED);
-							justReleasedArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.JUST_RELEASED);
-							heldArray[i] = FlxG.keys.checkStatus(FlxKey.fromString(_hitbox.array[i]), FlxInputState.PRESSED);
+							justPressedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justPressed, FlxInputState.JUST_PRESSED);
+							releasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].released, FlxInputState.RELEASED);
+							justReleasedArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].justReleased, FlxInputState.JUST_RELEASED);
+							heldArray[i] = FlxG.keys.checkStatus(_hitbox.array[i].pressed, FlxInputState.PRESSED);
 						}
 					}
 					for (i in 0...justPressedArray.length) {
