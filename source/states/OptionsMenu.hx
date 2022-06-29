@@ -257,10 +257,6 @@ class OptionsMenu extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 			}
 
-			if (_virtualpad.buttonA.justPressed)
-			{
-				FlxG.keys.justPressed.ENTER;
-			}
 			if (controls.UP_P)
 			{
 				curSelected -= 1;
