@@ -110,7 +110,10 @@ class PauseSubState extends MusicBeatSubstate
 
 		cameras = [PlayState.instance.camHUD];
 		
+                #if android
 		addVirtualPad(UP_DOWN, A);
+                addPadCamera();
+                #end
 	}
 
 	var justPressedAcceptLol:Bool = true;
