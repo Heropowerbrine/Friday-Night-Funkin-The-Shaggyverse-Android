@@ -248,8 +248,6 @@ class OptionsMenu extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
-		
-		public static var androidaccept = controls.ACCEPT;
 
 		if (!inMenu)
 		{
@@ -311,5 +309,6 @@ class OptionsMenu extends MusicBeatState
 				}
 			}
 		}
+		public static var androidaccept = controls.ACCEPT;
 	}
 }
