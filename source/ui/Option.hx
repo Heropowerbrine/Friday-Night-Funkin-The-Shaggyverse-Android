@@ -119,7 +119,7 @@ class BoolOption extends Option
 class PageOption extends Option
 {
     // OPTIONS //
-    public var Page_Name:String = "Categories";
+    public static var Page_Name:String = "Categories";
 
     override public function new(_Option_Name:String = "", _Option_Row:Int = 0, _Page_Name:String = "Categories")
     {
