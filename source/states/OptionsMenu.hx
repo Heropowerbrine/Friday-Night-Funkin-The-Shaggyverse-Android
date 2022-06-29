@@ -35,6 +35,8 @@ class OptionsMenu extends MusicBeatState
 	var curSelected:Int = 0;
 
 	public static var inMenu = false;
+	
+	public static var androidaccept = false;
 
 	public var pages:Array<Dynamic> = [
 		[
@@ -257,6 +259,11 @@ class OptionsMenu extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 			}
 			
+			if (controls.ACCEPT)
+			{
+				androidaccept = true;
+			}
+			
 			if (controls.UP_P)
 			{
 				curSelected -= 1;
@@ -309,6 +316,5 @@ class OptionsMenu extends MusicBeatState
 				}
 			}
 		}
-		public static var androidaccept = controls.ACCEPT;
 	}
 }
