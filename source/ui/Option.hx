@@ -83,7 +83,7 @@ class BoolOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
             ChangeValue();
     }
 
@@ -133,7 +133,7 @@ class PageOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
+        if(FlxG.keys.justPressed.ENTER && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu && OptionsMenu.androidaccept = true)
             OptionsMenu.LoadPage(Page_Name);
     }
 }
@@ -152,7 +152,7 @@ class ControlMenuSubStateOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new ControlMenuSubstate());
     }
 }
@@ -171,7 +171,7 @@ class UISkinSelectOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new UISkinSelect());
     }
 }
@@ -190,7 +190,7 @@ class SongOffsetOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new SongOffsetMenu());
     }
 }
@@ -215,7 +215,7 @@ class GameStateOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.switchState(Game_State);
     }
 }
@@ -264,7 +264,7 @@ class GameStateOption extends Option
 	{
 		super.update(elapsed);
 
-		if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+		if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 		{
 			Mod_Enabled = !Mod_Enabled;
 			ModList.setModEnabled(Option_Value, Mod_Enabled);
@@ -293,7 +293,7 @@ class MaxFPSOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new MaxFPSMenu());
     }
 }
@@ -307,7 +307,7 @@ class JudgementMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new JudgementMenu());
     }
 }
@@ -321,7 +321,7 @@ class NoteBGAlphaMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new NoteBGAlphaMenu());
     }
 }
@@ -335,7 +335,7 @@ class NoteColorMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new NoteColorSubstate());
     }
 }
@@ -349,7 +349,7 @@ class ScrollSpeedMenuOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new ScrollSpeedMenu());
     }
 }
@@ -363,7 +363,7 @@ class ImportOldHighscoreOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0)
+        if(FlxG.keys.justPressed.ENTER && Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept = true)
 			FlxG.state.openSubState(new ImportHighscoresSubstate());
     }
 }
@@ -405,7 +405,7 @@ class StringSaveOption extends Option
     {
         super.update(elapsed);
 
-        if(FlxG.keys.justPressed.ENTER && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu)
+        if(FlxG.keys.justPressed.ENTER && Std.int(Alphabet_Text.targetY) == 0 && !OptionsMenu.inMenu && OptionsMenu.androidaccept = true)
         {
 			var prevIndex = Modes.indexOf(Current_Mode);
 
