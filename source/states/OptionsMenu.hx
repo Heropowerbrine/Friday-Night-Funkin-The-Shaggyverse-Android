@@ -259,7 +259,7 @@ class OptionsMenu extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				LoadPage(Page_Name);
+				LoadPage();
 			}
 			
 			if (controls.UP_P)
