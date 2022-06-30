@@ -15,6 +15,7 @@ import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
+import flixel.FlxCamera;
 
 class PauseSubState extends MusicBeatSubstate
 {
@@ -108,7 +109,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		updateAlphabets();
 
-		cameras = [PlayState.instance.camHUD];
+		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
 		
                 #if android
 		addVirtualPad(UP_DOWN, A);
