@@ -53,6 +53,10 @@ class ResultsScreenSubstate extends MusicBeatSubstate
         add(graph);
 
         cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
+    }
+
+    override function update(elapsed:Float) {
+        super.update(elapsed);
 
         #if android
 	var justTouched:Bool = false;
@@ -65,10 +69,6 @@ class ResultsScreenSubstate extends MusicBeatSubstate
 		}
 	}
 	#end
-    }
-
-    override function update(elapsed:Float) {
-        super.update(elapsed);
 
         if(controls.ACCEPT #if android || justTouched #end)
         {
