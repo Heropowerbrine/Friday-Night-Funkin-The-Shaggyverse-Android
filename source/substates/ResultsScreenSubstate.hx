@@ -53,12 +53,24 @@ class ResultsScreenSubstate extends MusicBeatSubstate
         add(graph);
 
         cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
+
+        #if android
+	var justTouched:Bool = false;
+
+	for (touch in FlxG.touches.list)
+	{
+		if (touch.justPressed)
+		{
+			justTouched = true;
+		}
+	}
+	#end
     }
 
     override function update(elapsed:Float) {
         super.update(elapsed);
 
-        if(controls.ACCEPT)
+        if(controls.ACCEPT #if android || justTouched #end)
         {
             PlayState.instance.finishSongStuffs();
             FlxG.state.closeSubState();
