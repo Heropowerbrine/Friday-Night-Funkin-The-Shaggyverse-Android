@@ -112,21 +112,6 @@ class PauseSubState extends MusicBeatSubstate
 		cameras = [PlayState.instance.camHUD];
                 
                 #if android
-                var _virtualpad:FlxVirtualPad;
-	        var trackedinputsUI:Array<FlxActionInput> = [];
-                #end
-
-                #if android
-                public function addVirtualPad(DPad:FlxDPadMode, Action:FlxActionMode) {
-                        _virtualpad = new FlxVirtualPad(DPad, Action);
-		        add(_virtualpad);
-		        controls.setVirtualPadUI(_virtualpad, DPad, Action);
-		        trackedinputsUI = controls.trackedinputsUI;
-		        controls.trackedinputsUI = [];
-                }
-                #end
-
-                #if android
                 addVirtualPad(UP_DOWN, A);
                 _virtualpad.cameras = [PlayState.instance.camHUD];
                 #end
