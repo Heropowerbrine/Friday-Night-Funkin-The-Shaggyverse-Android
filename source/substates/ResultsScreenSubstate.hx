@@ -56,7 +56,7 @@ class ResultsScreenSubstate extends MusicBeatSubstate
 	 
         #if android   
 	addVirtualPad(NONE, A);
-        addPadCamera;
+        addPadCamera();
     }
 
     override function update(elapsed:Float) {
