@@ -110,6 +110,20 @@ class PauseSubState extends MusicBeatSubstate
 		updateAlphabets();
 
 		cameras = [PlayState.instance.camHUD];
+
+                var _virtualpad:FlxVirtualPad;
+	        var _hitbox:FlxHitbox;
+	        var trackedinputsUI:Array<FlxActionInput> = [];
+	        var trackedinputsNOTES:Array<FlxActionInput> = [];
+                public function addVirtualPad(DPad:FlxDPadMode, Action:FlxActionMode) {
+                _virtualpad = new FlxVirtualPad(DPad, Action);
+		add(_virtualpad);
+		controls.setVirtualPadUI(_virtualpad, DPad, Action);
+		trackedinputsUI = controls.trackedinputsUI;
+		controls.trackedinputsUI = [];
+                }
+                addVirtualPad(UP_DOWN, A_B);
+                _virtualpad.cameras = [PlayState.instance.camHUD];
 	}
 
 	var justPressedAcceptLol:Bool = true;
