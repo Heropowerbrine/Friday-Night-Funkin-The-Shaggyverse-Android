@@ -122,7 +122,7 @@ class PauseSubState extends MusicBeatSubstate
 		trackedinputsUI = controls.trackedinputsUI;
 		controls.trackedinputsUI = [];
                 }
-                addVirtualPad(UP_DOWN, A_B);
+                addVirtualPad(UP_DOWN, A);
                 _virtualpad.cameras = [PlayState.instance.camHUD];
 	}
 
