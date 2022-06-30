@@ -51,11 +51,6 @@ class GameOverSubstate extends MusicBeatSubstate
 		camFollow = new FlxObject(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y, 1, 1);
 		add(camFollow);
 
-                 #if android
-	         addVirtualPad(NONE, A_B);
-		 addPadCamera();
-                 #end
-
 		if(FlxG.sound.music.active)
 			FlxG.sound.music.stop();
 
@@ -70,6 +65,11 @@ class GameOverSubstate extends MusicBeatSubstate
 		Conductor.changeBPM(100);
 
 		bf.playAnim('firstDeath');
+
+                #if android
+	        addVirtualPad(NONE, A_B);
+		_virtualpad.cameras = [PlayState.instance.camHUD];
+                #end
 	}
 
 	override function update(elapsed:Float)
