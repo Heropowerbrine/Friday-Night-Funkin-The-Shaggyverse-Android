@@ -263,6 +263,11 @@ class OptionsMenu extends MusicBeatState
 			{
 				androidaccept = true;
 			}
+
+                        if (_virtualpad.buttonA.justReleased)
+			{
+				androidaccept = false;
+			}
 			
 			if (controls.UP_P)
 			{
