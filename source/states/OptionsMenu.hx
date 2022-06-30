@@ -259,7 +259,7 @@ class OptionsMenu extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 			}
 			
-			if (controls.ACCEPT)
+			if (_virtualpad.buttonA.justPressed)
 			{
 				androidaccept = true;
 			}
