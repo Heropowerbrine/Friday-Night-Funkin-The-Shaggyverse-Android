@@ -190,7 +190,7 @@ class SongOffsetOption extends Option
     {
         super.update(elapsed);
 
-        if(lphabet_Text.targetY == 0 && OptionsMenu.androidaccept)
+        if(Alphabet_Text.targetY == 0 && OptionsMenu.androidaccept)
 			FlxG.state.openSubState(new SongOffsetMenu());
     }
 }
