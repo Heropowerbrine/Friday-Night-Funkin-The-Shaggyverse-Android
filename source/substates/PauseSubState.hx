@@ -109,12 +109,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		updateAlphabets();
 
-		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
-		
-                #if android
-		addVirtualPad(UP_DOWN, A);
-                addPadCamera();
-                #end
+		cameras = [PlayState.instance.camHUD];
 	}
 
 	var justPressedAcceptLol:Bool = true;
