@@ -13,7 +13,7 @@ class PolymodHandler
 
 		Polymod.init({
 			modRoot:SUtil.getPath() + "mods/",
-			dirs: ModList.getActiveMods(SUtil.getPath() + metadataArrays),
+			dirs: ModList.getActiveMods(metadataArrays + SUtil.getPath()),
 			errorCallback: function(error:PolymodError)
 			{
 				//trace(error.message);
