@@ -254,7 +254,7 @@ class ModchartUtilities
 
             if(!PlayState.instance.event_luas.exists(event_name.toLowerCase()) && Assets.exists(Paths.lua("event data/" + event_name.toLowerCase())))
             {
-                PlayState.instance.event_luas.set(event_name.toLowerCase(), ModchartUtilities.createModchartUtilities(PolymodAssets.getPath(Paths.lua("event data/" + event_name.toLowerCase()))));
+                PlayState.instance.event_luas.set(event_name.toLowerCase(), ModchartUtilities.createModchartUtilities(Paths.lua("event data/" + event_name.toLowerCase())));
                 PlayState.instance.generatedSomeDumbEventLuas = true;
             }
 
