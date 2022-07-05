@@ -56,7 +56,7 @@ class Main extends Sprite
 
 	public function new()
 	{
-	        SUtil.gameCrashCheck();
+	        SUtil.uncaughtErrorHandler();
 		super();
 		#if desktop
 		Lib.current.loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onCrash);
@@ -103,7 +103,7 @@ class Main extends Sprite
 		initialState = TitleState;
 		#end
 			
-		SUtil.doTheCheck();
+		SUtil.check();
 
 		addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen));
 
