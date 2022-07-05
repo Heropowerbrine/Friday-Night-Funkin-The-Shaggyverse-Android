@@ -53,7 +53,7 @@ class FlxVideo extends FlxBasic {
 		
 		#elseif android
 
-                VideoView.playVideo(Tools.getFileUrl(SUtil.getPath() + name));
+                VideoView.playVideo(Tools.getFileUrl(name));
                 VideoView.onCompletion = function(){
 		        if (finishCallback != null){
 			        finishCallback();
