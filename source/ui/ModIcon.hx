@@ -16,7 +16,7 @@ class ModIcon extends FlxSprite
 	{
 		super();
 
-		var imageDataRaw = File.getBytes(SUtil.getPath() + Sys.getCwd() + "mods/" + modId + "/_polymod_icon.png");
+		var imageDataRaw = File.getBytes(SUtil.getPath() + "mods/" + modId + "/_polymod_icon.png");
 		var graphicData = BitmapData.fromBytes(imageDataRaw);
 
 		loadGraphic(graphicData, false, 0, 0, false, modId);
