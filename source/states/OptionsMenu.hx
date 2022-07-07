@@ -251,6 +251,8 @@ class OptionsMenu extends MusicBeatState
 	{
 		super.update(elapsed);
 
+                androidaccept = false;
+
 		if (!inMenu)
 		{
 			if(-1 * Math.floor(FlxG.mouse.wheel) != 0)
