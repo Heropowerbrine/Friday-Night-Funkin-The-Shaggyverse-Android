@@ -4,7 +4,7 @@ package states;
 import sys.FileSystem;
 #end
 
-#if BIT_64
+#if desktop
 import modding.FlxVideo;
 #end
 
