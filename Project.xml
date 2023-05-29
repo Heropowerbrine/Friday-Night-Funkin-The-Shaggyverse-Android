@@ -50,7 +50,7 @@
 	<assets path="assets/preload" rename="assets" exclude="*.mp3" unless="web"/>
 
 	<!-- LEATHER ENGINE CUSTOMIZATION -->
-	<define name="VIDEOS_ALLOWED" if="web || windows || android" unless="32bit"/>
+	<define name="VIDEOS_ALLOWED" if="web || windows" unless="32bit"/>
 
 	<assets path="mods" embed="false" exclude="*.ogg" if="web"/>
 	<assets path="mods" embed="false" exclude="*.mp3" unless="web"/>
