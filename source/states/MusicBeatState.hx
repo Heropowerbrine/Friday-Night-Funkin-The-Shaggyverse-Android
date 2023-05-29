@@ -66,6 +66,14 @@ class MusicBeatState extends FlxUIState
 		_virtualpad.cameras = [camcontrol];
 	}
 	#end
+		
+	public function addHitboxCamera(DefaultDrawTarget:Bool = false):Void
+	{
+		var camControls:FlxCamera = new FlxCamera();
+		camControls.bgColor.alpha = 0;
+		FlxG.cameras.add(camControls, DefaultDrawTarget);
+		_hitbox.cameras = [camControls];
+	}
 	
 	override function destroy() {
 		#if android
