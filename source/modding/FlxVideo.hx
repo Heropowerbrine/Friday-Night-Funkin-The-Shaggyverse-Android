@@ -1,3 +1,4 @@
+#if desktop
 package modding;
 
 #if BIT_64
@@ -145,4 +146,5 @@ class FlxVideo extends FlxBasic {
 	#end
 	#end
 }
+#end
 #end
