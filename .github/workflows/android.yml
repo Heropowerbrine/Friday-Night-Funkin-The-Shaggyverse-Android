@@ -43,7 +43,7 @@ jobs:
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
           haxelib --quiet install lime 7.9.0
-          haxelib -quiet install openfl 9.1.0
+          haxelib --quiet install openfl 9.1.0
           haxelib --quiet install flixel 4.11.0
           haxelib run lime setup flixel
           haxelib --quiet install flixel-tools
@@ -51,9 +51,9 @@ jobs:
           haxelib --quiet install hscript 2.5.0
           haxelib --quiet install flixel-addons 3.0.2
           haxelib --quiet install hxCodec 2.5.1
-          haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git linc_luajit https://github.com/Sirox228/linc_luajit.git
           haxelib git extension-androidtools https://github.com/Heropowerbrine/extension-androidtools.git
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
@@ -80,5 +80,5 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: androidBuild
-          path: export/release/android/bin/app/build/outputs/apk/debug 
+          name: Android Build
+          path: export/release/android/bin/app/build/outputs/apk/debug
