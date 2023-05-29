@@ -51,6 +51,7 @@ jobs:
           haxelib --quiet install hscript 2.5.0
           haxelib --quiet install flixel-addons 3.0.2
           haxelib --quiet install hxCodec 2.5.1
+          haxelib install polymod 1.3.0
           haxelib git linc_luajit https://github.com/Sirox228/linc_luajit.git
           haxelib git extension-androidtools https://github.com/Heropowerbrine/extension-androidtools.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
